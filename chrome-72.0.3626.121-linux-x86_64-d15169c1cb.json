@@ -1,0 +1,3220 @@
+{
+  "results": {
+    "http://localhost:8080/css/properties/dot-supports.html": [
+      {
+        "context": "css.properties.-webkit-background-clip",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.-webkit-text-fill-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.-webkit-text-stroke",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.-webkit-text-stroke-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.-webkit-text-stroke-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.align-content",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.align-items",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.align-self",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.alignment-baseline",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.all",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.animation-composition",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.animation-timeline",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.appearance",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.azimuth",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.backdrop-filter",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.backface-visibility",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-attachment",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-blend-mode",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-clip",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-image",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-position",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-position-block",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.background-position-inline",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.background-position-x",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-position-y",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.background-repeat",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.baseline-shift",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.block-size",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.block-step",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.block-step-align",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.block-step-insert",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.block-step-round",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.block-step-size",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.bookmark-label",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.bookmark-level",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.bookmark-state",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-block-color",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-block-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-end-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-end-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-end-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-start-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-start-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-start-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-block-style",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-block-width",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-bottom",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-bottom-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-bottom-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-bottom-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-boundary",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-clip",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-clip-bottom",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-clip-left",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-clip-right",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-clip-top",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-collapse",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-end-end-radius",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-end-start-radius",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-inline",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-inline-color",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-inline-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-end-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-end-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-end-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-start-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-start-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-start-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-inline-style",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-inline-width",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-left",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-left-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-left-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-left-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-limit",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-radius",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-right",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-right-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-right-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-right-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-spacing",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-start-end-radius",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-start-start-radius",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.border-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-top",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-top-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-top-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-top-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.border-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.bottom",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.box-decoration-break",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.box-snap",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.break-after",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.break-before",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.break-inside",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.caption-side",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.caret",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.caret-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.caret-shape",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.clear",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.clip",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.clip-path",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.clip-rule",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.color-adjust",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.color-interpolation",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.color-rendering",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.column-gap",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.column-span",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.contain",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.content",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.continue",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.copy-into",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.corner-shape",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.corners",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.counter-increment",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.counter-reset",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.counter-set",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.cue",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.cue-after",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.cue-before",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.cursor",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.cx",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.cy",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.d",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.direction",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.display",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.dominant-baseline",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.elevation",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.empty-cells",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.fill",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.fill-break",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.fill-color",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.fill-image",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.fill-opacity",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.fill-origin",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.fill-position",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.fill-repeat",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.fill-rule",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.fill-size",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.flex",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.flex-basis",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.flex-direction",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.flex-flow",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.flex-grow",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.flex-shrink",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.flex-wrap",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.float",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.float-defer",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.float-offset",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.float-reference",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.flow-from",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.flow-into",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-family",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-feature-settings",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-kerning",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-language-override",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-max-size",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-min-size",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-optical-sizing",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-palette",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-size",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-size-adjust",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-stretch",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-synthesis",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-synthesis-small-caps",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-synthesis-style",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-synthesis-weight",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-variant",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-variant-alternates",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-variant-caps",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-variant-east-asian",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-variant-emoji",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-variant-ligatures",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-variant-numeric",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-variant-position",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.font-variation-settings",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.font-weight",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.gap",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.glyph-orientation-vertical",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.grid-template-columns",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.grid-template-rows",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.height",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.hyphenate-character",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.hyphenate-limit-chars",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.hyphenate-limit-last",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.hyphenate-limit-lines",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.hyphenate-limit-zone",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.image-orientation",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.image-rendering",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.initial-letters",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.initial-letters-align",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.initial-letters-wrap",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inline-size",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.inline-sizing",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-after",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-before",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-block",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-block-end",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-block-start",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-end",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-inline",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-inline-end",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-inline-start",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.inset-start",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.isolation",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.justify-content",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.justify-items",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.justify-self",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.leading-trim",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.leading-trim-over",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.leading-trim-under",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.left",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.letter-spacing",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.line-grid",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.line-height",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.line-height-step",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.line-padding",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.line-sizing",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.line-snap",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.list-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.list-style-image",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.list-style-position",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.list-style-type",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-block",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.margin-block-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-block-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-bottom",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-inline",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.margin-inline-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-inline-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-left",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-right",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-top",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.margin-trim",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.marker",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.marker-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.marker-knockout-left",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.marker-knockout-right",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.marker-mid",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.marker-pattern",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.marker-segment",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.marker-side",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.marker-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.mask",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.mask-border",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-border-mode",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-border-outset",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-border-repeat",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-border-slice",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-border-source",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-border-width",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-clip",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-composite",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-image",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-mode",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-origin",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-position",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-repeat",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-size",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.mask-type",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.max-block-size",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.max-height",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.max-inline-size",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.max-lines",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.max-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.min-block-size",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.min-height",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.min-inline-size",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.min-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.mix-blend-mode",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.nav-down",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.nav-left",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.nav-right",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.nav-up",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.object-fit",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.object-position",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.offset",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.offset-anchor",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.offset-distance",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.offset-path",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.offset-position",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.offset-rotate",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.opacity",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.order",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.orphans",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.outline",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.outline-color",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.outline-offset",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.outline-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.outline-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.overflow",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.overflow-anchor",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.overscroll-behavior",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.overscroll-behavior-x",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.overscroll-behavior-y",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-block",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.padding-block-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-block-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-bottom",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-inline",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.padding-inline-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-inline-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-left",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-right",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.padding-top",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.page",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.page-break-after",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.page-break-before",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.page-break-inside",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.paint-order",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.pause",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.pause-after",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.pause-before",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.perspective",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.perspective-origin",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.pitch",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.pitch-range",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.place-content",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.place-items",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.place-self",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.play-during",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.pointer-events",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.position",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.quotes",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.r",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.region-fragment",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.resize",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.richness",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.right",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.rotate",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.row-gap",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.ruby-align",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.ruby-merge",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.ruby-position",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.rx",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.ry",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scale",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.scroll-behavior",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-block",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-block-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-block-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-bottom",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-inline",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-inline-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-inline-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-left",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-right",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-margin-top",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-block",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-block-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-block-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-bottom",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-inline",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-inline-end",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-inline-start",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-left",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-right",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-padding-top",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-snap-align",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-snap-stop",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scroll-snap-type",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.scrollbar-color",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.scrollbar-gutter",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.scrollbar-width",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.shape-inside",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.shape-margin",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.shape-padding",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.shape-rendering",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.shape-subtract",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.speak",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.speak-header",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.speak-numeral",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.speak-punctuation",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.speech-rate",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stress",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.string-set",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.stroke-align",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-alignment",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-break",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-color",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-dash-corner",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-dash-justify",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-dashadjust",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-dasharray",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.stroke-dashcorner",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-dashoffset",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.stroke-image",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-linecap",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.stroke-linejoin",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.stroke-miterlimit",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.stroke-opacity",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.stroke-origin",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-position",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-repeat",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-size",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.stroke-width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.table-layout",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-align",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-anchor",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-combine-upright",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-decoration",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-decoration-line",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-decoration-skip",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-decoration-skip-ink",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-decoration-width",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-emphasis-skip",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-group-align",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-indent",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-orientation",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-overflow",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-rendering",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-size-adjust",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-space-collapse",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-space-trim",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-spacing",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-transform",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.text-underline-offset",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.text-wrap",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.top",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.touch-action",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.transform-style",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.translate",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.unicode-bidi",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.user-select",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.vector-effect",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.vertical-align",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.visibility",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.voice-family",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.volume",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.white-space",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.widows",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.width",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.will-change",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.word-spacing",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.wrap-after",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.wrap-before",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.wrap-flow",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.wrap-inside",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.wrap-through",
+        "returns": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      {
+        "context": "css.properties.writing-mode",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.x",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.y",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      },
+      {
+        "context": "css.properties.z-index",
+        "returns": {
+          "type": "boolean",
+          "value": true
+        }
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+}
