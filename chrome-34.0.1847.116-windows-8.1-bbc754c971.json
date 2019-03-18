@@ -1,0 +1,6569 @@
+{
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/css/properties/dot-supports.html": [
+      {
+        "name": "css.properties.-khtml-box-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-flex-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-ordinal-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-pack",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-user-modify",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-fill-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-iteration-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-name",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-play-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-appearance",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-backface-visibility",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-clip",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-inline-policy",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-binding",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-bottom-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-end-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-end-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-end-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-left-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-bottomleft",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-bottomright",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-topleft",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-topright",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-right-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-start-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-start-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-top-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-ordinal-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-pack",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-shadow",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-fill",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-context-properties",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-font-feature-settings",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-font-language-override",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-image-region",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-margin-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-margin-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-opacity",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-osx-font-smooth",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-padding-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-padding-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-perspective",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-perspective-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-resize",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-tab-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-align-last",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-blink",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-decoration-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-decoration-line",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-decoration-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transform-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-property",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-focus",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-input",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-modify",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-select",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-flex-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-flex-positive",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-grid-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-grid-rows",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-ime-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-line-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-order",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-overflow-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-overflow-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scroll-snap-type",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-3dlight-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-arrow-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-base-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-darkshadow-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-face-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-highlight-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-shadow-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-track-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-text-combine-horizontal",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-text-overflow",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-touch-action",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-transform",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-user-select",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-word-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-writing-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-fill-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-iteration-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-name",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-play-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-background-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-border-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-object-fit",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-object-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-tab-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-text-overflow",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transform",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-property",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-animation",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-delay",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-duration",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-fill-mode",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-iteration-count",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-name",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-play-state",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-timing-function",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-appearance",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-backdrop-filter",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-backface-visibility",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-background-clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-background-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-background-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-before",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-bottom-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-bottom-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-image-slice",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-border-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-top-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-top-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-align",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-decoration-break",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-flex",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-flex-group",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-lines",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-ordinal-group",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-orient",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-pack",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-reflect",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-shadow",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-sizing",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-color-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-column-count",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-span",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-columns",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-filter",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-basis",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-flow",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-grow",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-shrink",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-font-feature-settings",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-font-kerning",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-font-smooth",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-font-variant-ligatures",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-line-break",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-margin-end",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-margin-start",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-attachment",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-mask-box-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-composite",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-position-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-position-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-repeat",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-repeat-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-repeat-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-max-inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-order",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-overflow-scrolling",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-padding-end",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-padding-start",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-perspective",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-perspective-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-print-color-adjust",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-scroll-snap-points-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-scroll-snap-points-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-scroll-snap-type",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-shape-margin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-combine",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-line",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-skip",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-fill-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-orientation",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-stroke",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-stroke-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-stroke-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-touch-callout",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-transform",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transform-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transform-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-delay",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-duration",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-property",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-timing-function",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-user-modify",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-user-select",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-writing-mode",
+        "result": true
+      },
+      {
+        "name": "css.properties.align-content",
+        "result": true
+      },
+      {
+        "name": "css.properties.align-items",
+        "result": true
+      },
+      {
+        "name": "css.properties.align-self",
+        "result": true
+      },
+      {
+        "name": "css.properties.alignment-baseline",
+        "result": true
+      },
+      {
+        "name": "css.properties.all",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-composition",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-fill-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-iteration-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-name",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-play-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-timeline",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.appearance",
+        "result": false
+      },
+      {
+        "name": "css.properties.aspect-ratio",
+        "result": false
+      },
+      {
+        "name": "css.properties.azimuth",
+        "result": false
+      },
+      {
+        "name": "css.properties.backdrop-filter",
+        "result": false
+      },
+      {
+        "name": "css.properties.backface-visibility",
+        "result": false
+      },
+      {
+        "name": "css.properties.background",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-attachment",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-blend-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.background-clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-position-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.background-position-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.background-position-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-position-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-repeat",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.baseline-shift",
+        "result": true
+      },
+      {
+        "name": "css.properties.block-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-insert",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-round",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.bookmark-label",
+        "result": false
+      },
+      {
+        "name": "css.properties.bookmark-level",
+        "result": false
+      },
+      {
+        "name": "css.properties.bookmark-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.border",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-boundary",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-bottom",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-top",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-collapse",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-end-end-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-end-start-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-outset",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-repeat",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-slice",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-source",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-left",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-left-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-left-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-left-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-limit",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-spacing",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-start-end-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-start-start-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.box-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-decoration-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-flex-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-ordinal-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-pack",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-shadow",
+        "result": true
+      },
+      {
+        "name": "css.properties.box-sizing",
+        "result": true
+      },
+      {
+        "name": "css.properties.box-snap",
+        "result": false
+      },
+      {
+        "name": "css.properties.break-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.break-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.break-inside",
+        "result": false
+      },
+      {
+        "name": "css.properties.caption-side",
+        "result": true
+      },
+      {
+        "name": "css.properties.caret",
+        "result": false
+      },
+      {
+        "name": "css.properties.caret-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.caret-shape",
+        "result": false
+      },
+      {
+        "name": "css.properties.clear",
+        "result": true
+      },
+      {
+        "name": "css.properties.clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.clip-path",
+        "result": true
+      },
+      {
+        "name": "css.properties.clip-rule",
+        "result": true
+      },
+      {
+        "name": "css.properties.color",
+        "result": true
+      },
+      {
+        "name": "css.properties.color-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.color-interpolation",
+        "result": true
+      },
+      {
+        "name": "css.properties.color-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.column-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-fill",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-gap",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-span",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.contain",
+        "result": false
+      },
+      {
+        "name": "css.properties.content",
+        "result": true
+      },
+      {
+        "name": "css.properties.continue",
+        "result": false
+      },
+      {
+        "name": "css.properties.copy-into",
+        "result": false
+      },
+      {
+        "name": "css.properties.corner-shape",
+        "result": false
+      },
+      {
+        "name": "css.properties.corners",
+        "result": false
+      },
+      {
+        "name": "css.properties.counter-increment",
+        "result": true
+      },
+      {
+        "name": "css.properties.counter-reset",
+        "result": true
+      },
+      {
+        "name": "css.properties.counter-set",
+        "result": false
+      },
+      {
+        "name": "css.properties.cue",
+        "result": false
+      },
+      {
+        "name": "css.properties.cue-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.cue-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.cursor",
+        "result": true
+      },
+      {
+        "name": "css.properties.custom-property",
+        "result": false
+      },
+      {
+        "name": "css.properties.cx",
+        "result": false
+      },
+      {
+        "name": "css.properties.cy",
+        "result": false
+      },
+      {
+        "name": "css.properties.d",
+        "result": false
+      },
+      {
+        "name": "css.properties.direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.display",
+        "result": true
+      },
+      {
+        "name": "css.properties.dominant-baseline",
+        "result": true
+      },
+      {
+        "name": "css.properties.elevation",
+        "result": false
+      },
+      {
+        "name": "css.properties.empty-cells",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-opacity",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-rule",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.filter",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-basis",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-flow",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-grow",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-shrink",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.float",
+        "result": true
+      },
+      {
+        "name": "css.properties.float-defer",
+        "result": false
+      },
+      {
+        "name": "css.properties.float-offset",
+        "result": false
+      },
+      {
+        "name": "css.properties.float-reference",
+        "result": false
+      },
+      {
+        "name": "css.properties.flow-from",
+        "result": false
+      },
+      {
+        "name": "css.properties.flow-into",
+        "result": false
+      },
+      {
+        "name": "css.properties.font",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-family",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-feature-settings",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-kerning",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-language-override",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-max-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-min-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-optical-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-palette",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-smooth",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-stretch",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-synthesis",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-synthesis-small-caps",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-synthesis-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-synthesis-weight",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-variant-alternates",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-caps",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-east-asian",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-emoji",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-ligatures",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-variant-numeric",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variation-settings",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-weight",
+        "result": true
+      },
+      {
+        "name": "css.properties.gap",
+        "result": false
+      },
+      {
+        "name": "css.properties.glyph-orientation-vertical",
+        "result": true
+      },
+      {
+        "name": "css.properties.grid",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-area",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-auto-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-auto-flow",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-auto-rows",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-column",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-column-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-column-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-row",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-row-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-row-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template-areas",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template-rows",
+        "result": false
+      },
+      {
+        "name": "css.properties.hanging-punctuation",
+        "result": false
+      },
+      {
+        "name": "css.properties.height",
+        "result": true
+      },
+      {
+        "name": "css.properties.hyphenate-character",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-chars",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-last",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-zone",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.image-orientation",
+        "result": false
+      },
+      {
+        "name": "css.properties.image-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.ime-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letter",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letter-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letters",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letters-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letters-wrap",
+        "result": false
+      },
+      {
+        "name": "css.properties.inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.inline-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.isolation",
+        "result": false
+      },
+      {
+        "name": "css.properties.justify-content",
+        "result": true
+      },
+      {
+        "name": "css.properties.justify-items",
+        "result": false
+      },
+      {
+        "name": "css.properties.justify-self",
+        "result": false
+      },
+      {
+        "name": "css.properties.leading-trim",
+        "result": false
+      },
+      {
+        "name": "css.properties.leading-trim-over",
+        "result": false
+      },
+      {
+        "name": "css.properties.leading-trim-under",
+        "result": false
+      },
+      {
+        "name": "css.properties.left",
+        "result": true
+      },
+      {
+        "name": "css.properties.letter-spacing",
+        "result": true
+      },
+      {
+        "name": "css.properties.line-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-grid",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-height",
+        "result": true
+      },
+      {
+        "name": "css.properties.line-height-step",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-padding",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-snap",
+        "result": false
+      },
+      {
+        "name": "css.properties.list-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.list-style-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.list-style-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.list-style-type",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-left",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-right",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-top",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-trim",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker",
+        "result": true
+      },
+      {
+        "name": "css.properties.marker-end",
+        "result": true
+      },
+      {
+        "name": "css.properties.marker-knockout-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-knockout-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-mid",
+        "result": true
+      },
+      {
+        "name": "css.properties.marker-pattern",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-segment",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-side",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-start",
+        "result": true
+      },
+      {
+        "name": "css.properties.mask",
+        "result": true
+      },
+      {
+        "name": "css.properties.mask-border",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-outset",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-slice",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-source",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-clip",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-composite",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-type",
+        "result": true
+      },
+      {
+        "name": "css.properties.max-block-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.max-height",
+        "result": true
+      },
+      {
+        "name": "css.properties.max-inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.max-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.max-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.min-block-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.min-height",
+        "result": true
+      },
+      {
+        "name": "css.properties.min-inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.min-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.mix-blend-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion-distance",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion-path",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion-rotation",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-down",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-up",
+        "result": false
+      },
+      {
+        "name": "css.properties.object-fit",
+        "result": true
+      },
+      {
+        "name": "css.properties.object-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.offset",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-anchor",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-distance",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-path",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-rotate",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-rotation",
+        "result": false
+      },
+      {
+        "name": "css.properties.opacity",
+        "result": true
+      },
+      {
+        "name": "css.properties.order",
+        "result": true
+      },
+      {
+        "name": "css.properties.orphans",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-offset",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow-anchor",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-clip-box",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-clip-box-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-clip-box-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.overscroll-behavior",
+        "result": false
+      },
+      {
+        "name": "css.properties.overscroll-behavior-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.overscroll-behavior-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-left",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-right",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-top",
+        "result": true
+      },
+      {
+        "name": "css.properties.page",
+        "result": true
+      },
+      {
+        "name": "css.properties.page-break-after",
+        "result": true
+      },
+      {
+        "name": "css.properties.page-break-before",
+        "result": true
+      },
+      {
+        "name": "css.properties.page-break-inside",
+        "result": true
+      },
+      {
+        "name": "css.properties.paint-order",
+        "result": false
+      },
+      {
+        "name": "css.properties.pause",
+        "result": false
+      },
+      {
+        "name": "css.properties.pause-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.pause-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.perspective",
+        "result": false
+      },
+      {
+        "name": "css.properties.perspective-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.pitch",
+        "result": false
+      },
+      {
+        "name": "css.properties.pitch-range",
+        "result": false
+      },
+      {
+        "name": "css.properties.place-content",
+        "result": false
+      },
+      {
+        "name": "css.properties.place-items",
+        "result": false
+      },
+      {
+        "name": "css.properties.place-self",
+        "result": false
+      },
+      {
+        "name": "css.properties.play-during",
+        "result": false
+      },
+      {
+        "name": "css.properties.pointer-events",
+        "result": true
+      },
+      {
+        "name": "css.properties.position",
+        "result": true
+      },
+      {
+        "name": "css.properties.quotes",
+        "result": true
+      },
+      {
+        "name": "css.properties.r",
+        "result": false
+      },
+      {
+        "name": "css.properties.region-fragment",
+        "result": false
+      },
+      {
+        "name": "css.properties.resize",
+        "result": true
+      },
+      {
+        "name": "css.properties.richness",
+        "result": false
+      },
+      {
+        "name": "css.properties.right",
+        "result": true
+      },
+      {
+        "name": "css.properties.rotate",
+        "result": false
+      },
+      {
+        "name": "css.properties.row-gap",
+        "result": false
+      },
+      {
+        "name": "css.properties.ruby-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.ruby-merge",
+        "result": false
+      },
+      {
+        "name": "css.properties.ruby-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.rx",
+        "result": false
+      },
+      {
+        "name": "css.properties.ry",
+        "result": false
+      },
+      {
+        "name": "css.properties.scale",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-behavior",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-bottom",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-top",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-bottom",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-top",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-coordinate",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-destination",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-points-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-points-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-stop",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-type",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-type-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-type-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.scrollbar-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.scrollbar-gutter",
+        "result": false
+      },
+      {
+        "name": "css.properties.scrollbar-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-image-threshold",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-inside",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-margin",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-outside",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-padding",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.shape-subtract",
+        "result": false
+      },
+      {
+        "name": "css.properties.speak",
+        "result": true
+      },
+      {
+        "name": "css.properties.speak-header",
+        "result": false
+      },
+      {
+        "name": "css.properties.speak-numeral",
+        "result": false
+      },
+      {
+        "name": "css.properties.speak-punctuation",
+        "result": false
+      },
+      {
+        "name": "css.properties.speech-rate",
+        "result": false
+      },
+      {
+        "name": "css.properties.stress",
+        "result": false
+      },
+      {
+        "name": "css.properties.string-set",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-alignment",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dash-corner",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dash-justify",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dashadjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dasharray",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-dashcorner",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dashoffset",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-linecap",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-linejoin",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-miterlimit",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-opacity",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.tab-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.table-layout",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-align",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-align-last",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-anchor",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-combine-horizontal",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-combine-upright",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-decoration-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-line",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-skip",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-skip-ink",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-skip",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-group-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-indent",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-justify",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-orientation",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-overflow",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-shadow",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-space-collapse",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-space-trim",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-spacing",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-transform",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-underline-offset",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-underline-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-wrap",
+        "result": false
+      },
+      {
+        "name": "css.properties.top",
+        "result": true
+      },
+      {
+        "name": "css.properties.touch-action",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform-box",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.transition",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-delay",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-duration",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-property",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-timing-function",
+        "result": true
+      },
+      {
+        "name": "css.properties.translate",
+        "result": false
+      },
+      {
+        "name": "css.properties.unicode-bidi",
+        "result": true
+      },
+      {
+        "name": "css.properties.user-modify",
+        "result": false
+      },
+      {
+        "name": "css.properties.user-select",
+        "result": false
+      },
+      {
+        "name": "css.properties.vector-effect",
+        "result": true
+      },
+      {
+        "name": "css.properties.vertical-align",
+        "result": true
+      },
+      {
+        "name": "css.properties.visibility",
+        "result": true
+      },
+      {
+        "name": "css.properties.voice-family",
+        "result": false
+      },
+      {
+        "name": "css.properties.volume",
+        "result": false
+      },
+      {
+        "name": "css.properties.white-space",
+        "result": true
+      },
+      {
+        "name": "css.properties.widows",
+        "result": true
+      },
+      {
+        "name": "css.properties.width",
+        "result": true
+      },
+      {
+        "name": "css.properties.will-change",
+        "result": false
+      },
+      {
+        "name": "css.properties.word-break",
+        "result": true
+      },
+      {
+        "name": "css.properties.word-spacing",
+        "result": true
+      },
+      {
+        "name": "css.properties.word-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.wrap-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-flow",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-inside",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-through",
+        "result": false
+      },
+      {
+        "name": "css.properties.writing-mode",
+        "result": true
+      },
+      {
+        "name": "css.properties.x",
+        "result": false
+      },
+      {
+        "name": "css.properties.y",
+        "result": false
+      },
+      {
+        "name": "css.properties.z-index",
+        "result": true
+      },
+      {
+        "name": "css.properties.zoom",
+        "result": true
+      }
+    ],
+    "http://mdn-bcd-collector.appspot.com/css/properties/in-style.html": [
+      {
+        "name": "css.properties.-khtml-box-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-flex-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-ordinal-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-box-pack",
+        "result": false
+      },
+      {
+        "name": "css.properties.-khtml-user-modify",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-fill-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-iteration-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-name",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-play-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-animation-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-appearance",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-backface-visibility",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-clip",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-inline-policy",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-background-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-binding",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-bottom-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-end-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-end-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-end-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-left-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-bottomleft",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-bottomright",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-topleft",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-radius-topright",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-right-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-start-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-start-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-border-top-colors",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-ordinal-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-pack",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-shadow",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-box-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-fill",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-rule-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-column-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-context-properties",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-font-feature-settings",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-font-language-override",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-image-region",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-margin-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-margin-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-opacity",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-osx-font-smooth",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-outline-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-padding-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-padding-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-perspective",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-perspective-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-resize",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-tab-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-align-last",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-blink",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-decoration-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-decoration-line",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-decoration-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transform-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-property",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-transition-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-focus",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-input",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-modify",
+        "result": false
+      },
+      {
+        "name": "css.properties.-moz-user-select",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-flex-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-flex-positive",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-grid-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-grid-rows",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-ime-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-line-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-order",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-overflow-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-overflow-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scroll-snap-type",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-3dlight-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-arrow-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-base-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-darkshadow-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-face-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-highlight-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-shadow-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-scrollbar-track-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-text-combine-horizontal",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-text-overflow",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-touch-action",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-transform",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-user-select",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-word-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.-ms-writing-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-fill-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-iteration-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-name",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-play-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-animation-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-background-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-border-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-object-fit",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-object-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-tab-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-text-overflow",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transform",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-property",
+        "result": false
+      },
+      {
+        "name": "css.properties.-o-transition-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-animation",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-delay",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-duration",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-fill-mode",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-iteration-count",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-name",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-play-state",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-animation-timing-function",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-appearance",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-backdrop-filter",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-backface-visibility",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-background-clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-background-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-background-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-before",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-bottom-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-bottom-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-image-slice",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-border-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-top-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-border-top-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-align",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-decoration-break",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-flex",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-flex-group",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-lines",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-ordinal-group",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-orient",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-pack",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-reflect",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-shadow",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-box-sizing",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-color-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-column-count",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-rule-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-span",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-column-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-columns",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-filter",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-basis",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-flow",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-grow",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-shrink",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-flex-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-font-feature-settings",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-font-kerning",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-font-smooth",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-font-variant-ligatures",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-line-break",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-margin-end",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-margin-start",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-attachment",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-mask-box-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-composite",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-position-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-position-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-repeat",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-repeat-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-mask-repeat-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-max-inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-order",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-overflow-scrolling",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-padding-end",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-padding-start",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-perspective",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-perspective-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-print-color-adjust",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-scroll-snap-points-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-scroll-snap-points-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-scroll-snap-type",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-shape-margin",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-combine",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-line",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-skip",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-decoration-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-emphasis-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-fill-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-orientation",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-text-stroke",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-stroke-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-text-stroke-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-touch-callout",
+        "result": false
+      },
+      {
+        "name": "css.properties.-webkit-transform",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transform-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transform-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-delay",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-duration",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-property",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-transition-timing-function",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-user-modify",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-user-select",
+        "result": true
+      },
+      {
+        "name": "css.properties.-webkit-writing-mode",
+        "result": true
+      },
+      {
+        "name": "css.properties.align-content",
+        "result": true
+      },
+      {
+        "name": "css.properties.align-items",
+        "result": true
+      },
+      {
+        "name": "css.properties.align-self",
+        "result": true
+      },
+      {
+        "name": "css.properties.alignment-baseline",
+        "result": true
+      },
+      {
+        "name": "css.properties.all",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-composition",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-delay",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-duration",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-fill-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-iteration-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-name",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-play-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-timeline",
+        "result": false
+      },
+      {
+        "name": "css.properties.animation-timing-function",
+        "result": false
+      },
+      {
+        "name": "css.properties.appearance",
+        "result": false
+      },
+      {
+        "name": "css.properties.aspect-ratio",
+        "result": false
+      },
+      {
+        "name": "css.properties.azimuth",
+        "result": false
+      },
+      {
+        "name": "css.properties.backdrop-filter",
+        "result": false
+      },
+      {
+        "name": "css.properties.backface-visibility",
+        "result": false
+      },
+      {
+        "name": "css.properties.background",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-attachment",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-blend-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.background-clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-origin",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-position-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.background-position-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.background-position-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-position-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-repeat",
+        "result": true
+      },
+      {
+        "name": "css.properties.background-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.baseline-shift",
+        "result": true
+      },
+      {
+        "name": "css.properties.block-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-insert",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-round",
+        "result": false
+      },
+      {
+        "name": "css.properties.block-step-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.bookmark-label",
+        "result": false
+      },
+      {
+        "name": "css.properties.bookmark-level",
+        "result": false
+      },
+      {
+        "name": "css.properties.bookmark-state",
+        "result": false
+      },
+      {
+        "name": "css.properties.border",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-end-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-start-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-block-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-bottom-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-boundary",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-bottom",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-clip-top",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-collapse",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-end-end-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-end-start-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-outset",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-repeat",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-slice",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-source",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-image-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-end-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-start-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-inline-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-left",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-left-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-left-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-left-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-limit",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-right-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-spacing",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-start-end-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-start-start-radius",
+        "result": false
+      },
+      {
+        "name": "css.properties.border-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-left-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-right-radius",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-top-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.border-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.box-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-decoration-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-direction",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-flex",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-flex-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-ordinal-group",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-orient",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-pack",
+        "result": false
+      },
+      {
+        "name": "css.properties.box-shadow",
+        "result": true
+      },
+      {
+        "name": "css.properties.box-sizing",
+        "result": true
+      },
+      {
+        "name": "css.properties.box-snap",
+        "result": false
+      },
+      {
+        "name": "css.properties.break-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.break-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.break-inside",
+        "result": false
+      },
+      {
+        "name": "css.properties.caption-side",
+        "result": true
+      },
+      {
+        "name": "css.properties.caret",
+        "result": false
+      },
+      {
+        "name": "css.properties.caret-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.caret-shape",
+        "result": false
+      },
+      {
+        "name": "css.properties.clear",
+        "result": true
+      },
+      {
+        "name": "css.properties.clip",
+        "result": true
+      },
+      {
+        "name": "css.properties.clip-path",
+        "result": true
+      },
+      {
+        "name": "css.properties.clip-rule",
+        "result": true
+      },
+      {
+        "name": "css.properties.color",
+        "result": true
+      },
+      {
+        "name": "css.properties.color-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.color-interpolation",
+        "result": true
+      },
+      {
+        "name": "css.properties.color-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.column-count",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-fill",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-gap",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-rule-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-span",
+        "result": false
+      },
+      {
+        "name": "css.properties.column-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.contain",
+        "result": false
+      },
+      {
+        "name": "css.properties.content",
+        "result": true
+      },
+      {
+        "name": "css.properties.continue",
+        "result": false
+      },
+      {
+        "name": "css.properties.copy-into",
+        "result": false
+      },
+      {
+        "name": "css.properties.corner-shape",
+        "result": false
+      },
+      {
+        "name": "css.properties.corners",
+        "result": false
+      },
+      {
+        "name": "css.properties.counter-increment",
+        "result": true
+      },
+      {
+        "name": "css.properties.counter-reset",
+        "result": true
+      },
+      {
+        "name": "css.properties.counter-set",
+        "result": false
+      },
+      {
+        "name": "css.properties.cue",
+        "result": false
+      },
+      {
+        "name": "css.properties.cue-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.cue-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.cursor",
+        "result": true
+      },
+      {
+        "name": "css.properties.custom-property",
+        "result": false
+      },
+      {
+        "name": "css.properties.cx",
+        "result": false
+      },
+      {
+        "name": "css.properties.cy",
+        "result": false
+      },
+      {
+        "name": "css.properties.d",
+        "result": false
+      },
+      {
+        "name": "css.properties.direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.display",
+        "result": true
+      },
+      {
+        "name": "css.properties.dominant-baseline",
+        "result": true
+      },
+      {
+        "name": "css.properties.elevation",
+        "result": false
+      },
+      {
+        "name": "css.properties.empty-cells",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-opacity",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.fill-rule",
+        "result": true
+      },
+      {
+        "name": "css.properties.fill-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.filter",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-basis",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-direction",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-flow",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-grow",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-shrink",
+        "result": true
+      },
+      {
+        "name": "css.properties.flex-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.float",
+        "result": true
+      },
+      {
+        "name": "css.properties.float-defer",
+        "result": false
+      },
+      {
+        "name": "css.properties.float-offset",
+        "result": false
+      },
+      {
+        "name": "css.properties.float-reference",
+        "result": false
+      },
+      {
+        "name": "css.properties.flow-from",
+        "result": false
+      },
+      {
+        "name": "css.properties.flow-into",
+        "result": false
+      },
+      {
+        "name": "css.properties.font",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-family",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-feature-settings",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-kerning",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-language-override",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-max-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-min-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-optical-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-palette",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-smooth",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-stretch",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-synthesis",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-synthesis-small-caps",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-synthesis-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-synthesis-weight",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-variant-alternates",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-caps",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-east-asian",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-emoji",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-ligatures",
+        "result": true
+      },
+      {
+        "name": "css.properties.font-variant-numeric",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variant-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-variation-settings",
+        "result": false
+      },
+      {
+        "name": "css.properties.font-weight",
+        "result": true
+      },
+      {
+        "name": "css.properties.gap",
+        "result": false
+      },
+      {
+        "name": "css.properties.glyph-orientation-vertical",
+        "result": true
+      },
+      {
+        "name": "css.properties.grid",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-area",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-auto-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-auto-flow",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-auto-rows",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-column",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-column-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-column-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-row",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-row-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-row-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template-areas",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template-columns",
+        "result": false
+      },
+      {
+        "name": "css.properties.grid-template-rows",
+        "result": false
+      },
+      {
+        "name": "css.properties.hanging-punctuation",
+        "result": false
+      },
+      {
+        "name": "css.properties.height",
+        "result": true
+      },
+      {
+        "name": "css.properties.hyphenate-character",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-chars",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-last",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphenate-limit-zone",
+        "result": false
+      },
+      {
+        "name": "css.properties.hyphens",
+        "result": false
+      },
+      {
+        "name": "css.properties.image-orientation",
+        "result": false
+      },
+      {
+        "name": "css.properties.image-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.ime-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letter",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letter-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letters",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letters-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.initial-letters-wrap",
+        "result": false
+      },
+      {
+        "name": "css.properties.inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.inline-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.inset-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.isolation",
+        "result": false
+      },
+      {
+        "name": "css.properties.justify-content",
+        "result": true
+      },
+      {
+        "name": "css.properties.justify-items",
+        "result": false
+      },
+      {
+        "name": "css.properties.justify-self",
+        "result": false
+      },
+      {
+        "name": "css.properties.leading-trim",
+        "result": false
+      },
+      {
+        "name": "css.properties.leading-trim-over",
+        "result": false
+      },
+      {
+        "name": "css.properties.leading-trim-under",
+        "result": false
+      },
+      {
+        "name": "css.properties.left",
+        "result": true
+      },
+      {
+        "name": "css.properties.letter-spacing",
+        "result": true
+      },
+      {
+        "name": "css.properties.line-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-grid",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-height",
+        "result": true
+      },
+      {
+        "name": "css.properties.line-height-step",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-padding",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-sizing",
+        "result": false
+      },
+      {
+        "name": "css.properties.line-snap",
+        "result": false
+      },
+      {
+        "name": "css.properties.list-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.list-style-image",
+        "result": true
+      },
+      {
+        "name": "css.properties.list-style-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.list-style-type",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.margin-left",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-right",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-top",
+        "result": true
+      },
+      {
+        "name": "css.properties.margin-trim",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker",
+        "result": true
+      },
+      {
+        "name": "css.properties.marker-end",
+        "result": true
+      },
+      {
+        "name": "css.properties.marker-knockout-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-knockout-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-mid",
+        "result": true
+      },
+      {
+        "name": "css.properties.marker-pattern",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-segment",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-side",
+        "result": false
+      },
+      {
+        "name": "css.properties.marker-start",
+        "result": true
+      },
+      {
+        "name": "css.properties.mask",
+        "result": true
+      },
+      {
+        "name": "css.properties.mask-border",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-outset",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-slice",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-source",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-border-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-clip",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-composite",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.mask-type",
+        "result": true
+      },
+      {
+        "name": "css.properties.max-block-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.max-height",
+        "result": true
+      },
+      {
+        "name": "css.properties.max-inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.max-lines",
+        "result": false
+      },
+      {
+        "name": "css.properties.max-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.min-block-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.min-height",
+        "result": true
+      },
+      {
+        "name": "css.properties.min-inline-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.min-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.mix-blend-mode",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion-distance",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion-path",
+        "result": false
+      },
+      {
+        "name": "css.properties.motion-rotation",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-down",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.nav-up",
+        "result": false
+      },
+      {
+        "name": "css.properties.object-fit",
+        "result": true
+      },
+      {
+        "name": "css.properties.object-position",
+        "result": true
+      },
+      {
+        "name": "css.properties.offset",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-anchor",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-distance",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-path",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-rotate",
+        "result": false
+      },
+      {
+        "name": "css.properties.offset-rotation",
+        "result": false
+      },
+      {
+        "name": "css.properties.opacity",
+        "result": true
+      },
+      {
+        "name": "css.properties.order",
+        "result": true
+      },
+      {
+        "name": "css.properties.orphans",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-color",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-offset",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-style",
+        "result": true
+      },
+      {
+        "name": "css.properties.outline-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow-anchor",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-clip-box",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-clip-box-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-clip-box-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.overflow-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow-x",
+        "result": true
+      },
+      {
+        "name": "css.properties.overflow-y",
+        "result": true
+      },
+      {
+        "name": "css.properties.overscroll-behavior",
+        "result": false
+      },
+      {
+        "name": "css.properties.overscroll-behavior-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.overscroll-behavior-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-bottom",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.padding-left",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-right",
+        "result": true
+      },
+      {
+        "name": "css.properties.padding-top",
+        "result": true
+      },
+      {
+        "name": "css.properties.page",
+        "result": true
+      },
+      {
+        "name": "css.properties.page-break-after",
+        "result": true
+      },
+      {
+        "name": "css.properties.page-break-before",
+        "result": true
+      },
+      {
+        "name": "css.properties.page-break-inside",
+        "result": true
+      },
+      {
+        "name": "css.properties.paint-order",
+        "result": false
+      },
+      {
+        "name": "css.properties.pause",
+        "result": false
+      },
+      {
+        "name": "css.properties.pause-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.pause-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.perspective",
+        "result": false
+      },
+      {
+        "name": "css.properties.perspective-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.pitch",
+        "result": false
+      },
+      {
+        "name": "css.properties.pitch-range",
+        "result": false
+      },
+      {
+        "name": "css.properties.place-content",
+        "result": false
+      },
+      {
+        "name": "css.properties.place-items",
+        "result": false
+      },
+      {
+        "name": "css.properties.place-self",
+        "result": false
+      },
+      {
+        "name": "css.properties.play-during",
+        "result": false
+      },
+      {
+        "name": "css.properties.pointer-events",
+        "result": true
+      },
+      {
+        "name": "css.properties.position",
+        "result": true
+      },
+      {
+        "name": "css.properties.quotes",
+        "result": true
+      },
+      {
+        "name": "css.properties.r",
+        "result": false
+      },
+      {
+        "name": "css.properties.region-fragment",
+        "result": false
+      },
+      {
+        "name": "css.properties.resize",
+        "result": true
+      },
+      {
+        "name": "css.properties.richness",
+        "result": false
+      },
+      {
+        "name": "css.properties.right",
+        "result": true
+      },
+      {
+        "name": "css.properties.rotate",
+        "result": false
+      },
+      {
+        "name": "css.properties.row-gap",
+        "result": false
+      },
+      {
+        "name": "css.properties.ruby-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.ruby-merge",
+        "result": false
+      },
+      {
+        "name": "css.properties.ruby-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.rx",
+        "result": false
+      },
+      {
+        "name": "css.properties.ry",
+        "result": false
+      },
+      {
+        "name": "css.properties.scale",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-behavior",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-bottom",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-margin-top",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-block",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-block-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-block-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-bottom",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-inline",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-inline-end",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-inline-start",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-left",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-right",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-padding-top",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-coordinate",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-destination",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-points-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-points-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-stop",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-type",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-type-x",
+        "result": false
+      },
+      {
+        "name": "css.properties.scroll-snap-type-y",
+        "result": false
+      },
+      {
+        "name": "css.properties.scrollbar-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.scrollbar-gutter",
+        "result": false
+      },
+      {
+        "name": "css.properties.scrollbar-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-image-threshold",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-inside",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-margin",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-outside",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-padding",
+        "result": false
+      },
+      {
+        "name": "css.properties.shape-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.shape-subtract",
+        "result": false
+      },
+      {
+        "name": "css.properties.speak",
+        "result": true
+      },
+      {
+        "name": "css.properties.speak-header",
+        "result": false
+      },
+      {
+        "name": "css.properties.speak-numeral",
+        "result": false
+      },
+      {
+        "name": "css.properties.speak-punctuation",
+        "result": false
+      },
+      {
+        "name": "css.properties.speech-rate",
+        "result": false
+      },
+      {
+        "name": "css.properties.stress",
+        "result": false
+      },
+      {
+        "name": "css.properties.string-set",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-alignment",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-break",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dash-corner",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dash-justify",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dashadjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dasharray",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-dashcorner",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-dashoffset",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-image",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-linecap",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-linejoin",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-miterlimit",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-opacity",
+        "result": true
+      },
+      {
+        "name": "css.properties.stroke-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-repeat",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-size",
+        "result": false
+      },
+      {
+        "name": "css.properties.stroke-width",
+        "result": true
+      },
+      {
+        "name": "css.properties.tab-size",
+        "result": true
+      },
+      {
+        "name": "css.properties.table-layout",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-align",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-align-last",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-anchor",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-combine-horizontal",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-combine-upright",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-decoration-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-line",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-skip",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-skip-ink",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-decoration-width",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-color",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-skip",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-emphasis-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-group-align",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-indent",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-justify",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-orientation",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-overflow",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-rendering",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-shadow",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-size-adjust",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-space-collapse",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-space-trim",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-spacing",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-transform",
+        "result": true
+      },
+      {
+        "name": "css.properties.text-underline-offset",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-underline-position",
+        "result": false
+      },
+      {
+        "name": "css.properties.text-wrap",
+        "result": false
+      },
+      {
+        "name": "css.properties.top",
+        "result": true
+      },
+      {
+        "name": "css.properties.touch-action",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform-box",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform-origin",
+        "result": false
+      },
+      {
+        "name": "css.properties.transform-style",
+        "result": false
+      },
+      {
+        "name": "css.properties.transition",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-delay",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-duration",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-property",
+        "result": true
+      },
+      {
+        "name": "css.properties.transition-timing-function",
+        "result": true
+      },
+      {
+        "name": "css.properties.translate",
+        "result": false
+      },
+      {
+        "name": "css.properties.unicode-bidi",
+        "result": true
+      },
+      {
+        "name": "css.properties.user-modify",
+        "result": false
+      },
+      {
+        "name": "css.properties.user-select",
+        "result": false
+      },
+      {
+        "name": "css.properties.vector-effect",
+        "result": true
+      },
+      {
+        "name": "css.properties.vertical-align",
+        "result": true
+      },
+      {
+        "name": "css.properties.visibility",
+        "result": true
+      },
+      {
+        "name": "css.properties.voice-family",
+        "result": false
+      },
+      {
+        "name": "css.properties.volume",
+        "result": false
+      },
+      {
+        "name": "css.properties.white-space",
+        "result": true
+      },
+      {
+        "name": "css.properties.widows",
+        "result": true
+      },
+      {
+        "name": "css.properties.width",
+        "result": true
+      },
+      {
+        "name": "css.properties.will-change",
+        "result": false
+      },
+      {
+        "name": "css.properties.word-break",
+        "result": true
+      },
+      {
+        "name": "css.properties.word-spacing",
+        "result": true
+      },
+      {
+        "name": "css.properties.word-wrap",
+        "result": true
+      },
+      {
+        "name": "css.properties.wrap-after",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-before",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-flow",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-inside",
+        "result": false
+      },
+      {
+        "name": "css.properties.wrap-through",
+        "result": false
+      },
+      {
+        "name": "css.properties.writing-mode",
+        "result": true
+      },
+      {
+        "name": "css.properties.x",
+        "result": false
+      },
+      {
+        "name": "css.properties.y",
+        "result": false
+      },
+      {
+        "name": "css.properties.z-index",
+        "result": true
+      },
+      {
+        "name": "css.properties.zoom",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36"
+}
