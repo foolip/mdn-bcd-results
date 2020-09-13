@@ -1,0 +1,131 @@
+{
+  "results": {
+    "__version": "0.2.1",
+    "https://mdn-bcd-collector.appspot.com/tests/api/AbortPaymentEvent": [
+      {
+        "info": {
+          "code": "\"AbortPaymentEvent\" in self",
+          "exposure": "ServiceWorker"
+        },
+        "name": "api.AbortPaymentEvent",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"AbortPaymentEvent\" in self && bcd.testConstructor(\"AbortPaymentEvent\")",
+          "exposure": "ServiceWorker"
+        },
+        "message": "threw TypeError: Failed to construct 'AbortPaymentEvent': 2 arguments required, but only 0 present.",
+        "name": "api.AbortPaymentEvent.AbortPaymentEvent",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"AbortPaymentEvent\" in self && \"respondWith\" in AbortPaymentEvent.prototype",
+          "exposure": "ServiceWorker"
+        },
+        "name": "api.AbortPaymentEvent.respondWith",
+        "result": true
+      }
+    ],
+    "https://mdn-bcd-collector.appspot.com/tests/api/PaymentAddress": [
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"addressLine\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.addressLine",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"city\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.city",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"country\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.country",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"dependentLocality\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.dependentLocality",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"organization\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.organization",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"phone\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.phone",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"postalCode\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.postalCode",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"recipient\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.recipient",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"region\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.region",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"sortingCode\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.sortingCode",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"PaymentAddress\" in self && \"toJSON\" in PaymentAddress.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.PaymentAddress.toJSON",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Linux; Android 10; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36"
+}
