@@ -1,0 +1,136 @@
+{
+  "__version": "0.3.0",
+  "results": {
+    "http://localhost:8080/tests/api/AudioContext": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return !!instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "bcd.testConstructor(\"AudioContext\");",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.AudioContext",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'baseLatency' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.baseLatency",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'close' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.close",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createConstantSource' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createConstantSource",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createDelayNode' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createDelayNode",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createGainNode' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createGainNode",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createJavaScriptNode' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createJavaScriptNode",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createMediaElementSource' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createMediaElementSource",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createMediaStreamDestination' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createMediaStreamDestination",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createMediaStreamSource' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createMediaStreamSource",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'createMediaStreamTrackSource' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.createMediaStreamTrackSource",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'getOutputTimestamp' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.getOutputTimestamp",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'outputLatency' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.outputLatency",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'resume' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.resume",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'suspend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.suspend",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+}
