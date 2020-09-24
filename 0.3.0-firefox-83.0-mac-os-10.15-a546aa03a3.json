@@ -1,0 +1,16 @@
+{
+  "__version": "0.3.0",
+  "results": {
+    "https://mdn-bcd-collector.appspot.com/tests/api/AudioContext/outputLatency": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = new (window.AudioContext || window.webkitAudioContext)();\n  return 'outputLatency' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.AudioContext.outputLatency",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:83.0) Gecko/20100101 Firefox/83.0"
+}
