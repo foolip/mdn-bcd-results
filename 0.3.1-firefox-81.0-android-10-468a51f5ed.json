@@ -1,0 +1,106 @@
+{
+  "__version": "0.3.1",
+  "results": {
+    "https://mdn-bcd-collector.appspot.com/tests/api/DOMError": [
+      {
+        "info": {
+          "code": "\"DOMError\" in self",
+          "exposure": "Window"
+        },
+        "name": "api.DOMError",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "\"location\" in DOMError.prototype",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.location",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"message\" in DOMError.prototype",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.message",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"name\" in DOMError.prototype",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.name",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"relatedData\" in DOMError.prototype",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.relatedData",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"relatedException\" in DOMError.prototype",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.relatedException",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"severity\" in DOMError.prototype",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.severity",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"SEVERITY_ERROR\" in DOMError",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.SEVERITY_ERROR",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"SEVERITY_FATAL_ERROR\" in DOMError",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.SEVERITY_FATAL_ERROR",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"SEVERITY_WARNING\" in DOMError",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.SEVERITY_WARNING",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"type\" in DOMError.prototype",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: DOMError is not defined",
+        "name": "api.DOMError.type",
+        "result": null
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Android 10; Mobile; rv:81.0) Gecko/81.0 Firefox/81.0"
+}
