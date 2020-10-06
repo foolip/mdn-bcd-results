@@ -1,0 +1,1920 @@
+{
+  "__version": "0.5.2",
+  "results": {
+    "https://mdn-bcd-collector.appspot.com/tests/api/Window": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return !!instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'alert' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.alert",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'applicationCache' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.applicationCache",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'atob' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.atob",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'blur' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.blur",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'btoa' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.btoa",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'caches' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.caches",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'cancelAnimationFrame' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.cancelAnimationFrame",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'cancelIdleCallback' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.cancelIdleCallback",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'captureEvents' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.captureEvents",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'clearImmediate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.clearImmediate",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'clearInterval' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.clearInterval",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'clearTimeout' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.clearTimeout",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'clientInformation' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.clientInformation",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'close' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.close",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'closed' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.closed",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'confirm' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.confirm",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'cookieStore' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.cookieStore",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'createImageBitmap' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.createImageBitmap",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'crossOriginIsolated' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.crossOriginIsolated",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'crypto' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.crypto",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'customElements' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.customElements",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'defaultstatus' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.defaultstatus",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'defaultStatus' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.defaultStatus",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'devicePixelRatio' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.devicePixelRatio",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'document' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.document",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'event' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.event",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'external' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.external",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'fetch' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.fetch",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'find' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.find",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'focus' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.focus",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'frameElement' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.frameElement",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'frames' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.frames",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'fullScreen' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.fullScreen",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'getComputedStyle' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.getComputedStyle",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'getOriginPrivateDirectory' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.getOriginPrivateDirectory",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'getSelection' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.getSelection",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'history' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.history",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'indexedDB' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.indexedDB",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'innerHeight' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.innerHeight",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'innerWidth' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.innerWidth",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'isSecureContext' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.isSecureContext",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'length' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.length",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'localStorage' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.localStorage",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'location' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.location",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'locationbar' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.locationbar",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'matchMedia' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.matchMedia",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'menubar' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.menubar",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'moveBy' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.moveBy",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'moveTo' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.moveTo",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'name' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.name",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'navigate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.navigate",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'navigator' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.navigator",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'offscreenBuffering' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.offscreenBuffering",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onabort' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onabort",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onafterprint' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onafterprint",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onanimationcancel' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onanimationcancel",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onanimationend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onanimationend",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onanimationiteration' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onanimationiteration",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onanimationstart' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onanimationstart",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onauxclick' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onauxclick",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onbeforeprint' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onbeforeprint",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onbeforeunload' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onbeforeunload",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onbeforexrselect' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onbeforexrselect",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onblur' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onblur",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oncancel' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oncancel",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oncanplay' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oncanplay",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oncanplaythrough' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oncanplaythrough",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onchange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onclick' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onclick",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onclose' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onclose",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oncompassneedscalibration' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oncompassneedscalibration",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oncontextmenu' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oncontextmenu",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oncuechange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oncuechange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondblclick' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondblclick",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondevicelight' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondevicelight",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondevicemotion' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondevicemotion",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondeviceorientation' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondeviceorientation",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondeviceorientationabsolute' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondeviceorientationabsolute",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondeviceproximity' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondeviceproximity",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondrag' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondrag",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondragend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondragend",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondragenter' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondragenter",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondragexit' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondragexit",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondragleave' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondragleave",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondragover' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondragover",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondragstart' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondragstart",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondrop' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondrop",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ondurationchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ondurationchange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onemptied' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onemptied",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onended' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onended",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onerror' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onerror",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onfocus' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onfocus",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onformdata' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onformdata",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ongotpointercapture' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ongotpointercapture",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onhashchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onhashchange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oninput' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oninput",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'oninvalid' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.oninvalid",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onkeydown' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onkeydown",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onkeypress' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onkeypress",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onkeyup' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onkeyup",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onlanguagechange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onlanguagechange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onload' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onload",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onloadeddata' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onloadeddata",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onloadedmetadata' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onloadedmetadata",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onloadstart' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onloadstart",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onlostpointercapture' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onlostpointercapture",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmessage' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmessage",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmessageerror' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmessageerror",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmousedown' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmousedown",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmouseenter' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmouseenter",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmouseleave' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmouseleave",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmousemove' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmousemove",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmouseout' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmouseout",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmouseover' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmouseover",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmouseup' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmouseup",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmozfullscreenchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmozfullscreenchange",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmozfullscreenerror' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmozfullscreenerror",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmsfullscreenchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmsfullscreenchange",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onmsfullscreenerror' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onmsfullscreenerror",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onoffline' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onoffline",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ononline' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ononline",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onorientationchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onorientationchange",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpagehide' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpagehide",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpageshow' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpageshow",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpause' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpause",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onplay' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onplay",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onplaying' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onplaying",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointercancel' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointercancel",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointerdown' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointerdown",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointerenter' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointerenter",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointerleave' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointerleave",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointermove' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointermove",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointerout' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointerout",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointerover' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointerover",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointerrawupdate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointerrawupdate",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpointerup' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpointerup",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onpopstate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onpopstate",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onportalactivate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onportalactivate",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onprogress' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onprogress",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onratechange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onratechange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onrejectionhandled' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onrejectionhandled",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onreset' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onreset",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onresize' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onresize",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onscroll' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onscroll",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onsearch' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onsearch",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onsecuritypolicyviolation' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onsecuritypolicyviolation",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onseeked' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onseeked",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onseeking' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onseeking",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onselect' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onselect",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onselectionchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onselectionchange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onselectstart' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onselectstart",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onslotchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onslotchange",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onstalled' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onstalled",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onstorage' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onstorage",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onsubmit' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onsubmit",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onsuspend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onsuspend",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontimeupdate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontimeupdate",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontoggle' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontoggle",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontouchcancel' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontouchcancel",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontouchend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontouchend",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontouchmove' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontouchmove",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontouchstart' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontouchstart",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontransitioncancel' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontransitioncancel",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontransitionend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontransitionend",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontransitionrun' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontransitionrun",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'ontransitionstart' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.ontransitionstart",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onunhandledrejection' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onunhandledrejection",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onunload' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onunload",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onuserproximity' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onuserproximity",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onvolumechange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onvolumechange",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwaiting' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwaiting",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwebkitanimationend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwebkitanimationend",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwebkitanimationiteration' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwebkitanimationiteration",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwebkitanimationstart' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwebkitanimationstart",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwebkitfullscreenchange' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwebkitfullscreenchange",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwebkitfullscreenerror' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwebkitfullscreenerror",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwebkittransitionend' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwebkittransitionend",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'onwheel' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.onwheel",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'open' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.open",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'opener' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.opener",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'orientation' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.orientation",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'origin' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.origin",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'originPolicyIds' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.originPolicyIds",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'outerHeight' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.outerHeight",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'outerWidth' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.outerWidth",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'pageXOffset' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.pageXOffset",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'pageYOffset' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.pageYOffset",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'parent' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.parent",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'performance' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.performance",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'PERSISTENT' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.PERSISTENT",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'personalbar' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.personalbar",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'portalHost' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.portalHost",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'postMessage' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.postMessage",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'print' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.print",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'prompt' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.prompt",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'queueMicrotask' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.queueMicrotask",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'releaseEvents' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.releaseEvents",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'requestAnimationFrame' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.requestAnimationFrame",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'requestFileSystem' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.requestFileSystem",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'requestIdleCallback' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.requestIdleCallback",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'resizeBy' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.resizeBy",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'resizeTo' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.resizeTo",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'resolveLocalFileSystemURL' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.resolveLocalFileSystemURL",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'routeEvent' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.routeEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'screen' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.screen",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'screenLeft' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.screenLeft",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'screenTop' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.screenTop",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'screenX' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.screenX",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'screenY' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.screenY",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'scroll' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.scroll",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'scrollbars' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.scrollbars",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'scrollBy' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.scrollBy",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'scrollTo' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.scrollTo",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'scrollX' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.scrollX",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'scrollY' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.scrollY",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'self' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.self",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'sessionStorage' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.sessionStorage",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'setImmediate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.setImmediate",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'setInterval' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.setInterval",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'setTimeout' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.setTimeout",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'showDirectoryPicker' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.showDirectoryPicker",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'showOpenFilePicker' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.showOpenFilePicker",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'showSaveFilePicker' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.showSaveFilePicker",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'speechSynthesis' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.speechSynthesis",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'status' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.status",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'statusbar' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.statusbar",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'stop' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.stop",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'styleMedia' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.styleMedia",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'TEMPORARY' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.TEMPORARY",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'toolbar' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.toolbar",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'top' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.top",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'trustedTypes' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.trustedTypes",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'visualViewport' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.visualViewport",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'webkitCancelAnimationFrame' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.webkitCancelAnimationFrame",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'WebKitCSSMatrix' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.WebKitCSSMatrix",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'WebKitMutationObserver' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.WebKitMutationObserver",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'webkitRequestAnimationFrame' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.webkitRequestAnimationFrame",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = window;\n  return 'window' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Window.window",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.68"
+}
