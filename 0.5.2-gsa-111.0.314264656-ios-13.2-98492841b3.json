@@ -1,0 +1,16 @@
+{
+  "__version": "0.5.2",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/api/Document/createAttributeNS": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document;\n  return 'createAttributeNS' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.Document.createAttributeNS",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/111.0.314264656 Mobile/15E148 Safari/604.1"
+}
