@@ -1,0 +1,17 @@
+{
+  "__version": "0.5.2",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/api/AudioContext/AudioContext": [
+      {
+        "info": {
+          "code": "bcd.testConstructor(\"AudioContext\");",
+          "exposure": "Window"
+        },
+        "message": "threw ReferenceError: Can't find variable: AudioContext",
+        "name": "api.AudioContext.AudioContext",
+        "result": null
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15"
+}
