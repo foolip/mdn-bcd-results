@@ -1,0 +1,16 @@
+{
+  "__version": "0.5.3",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/api/Element/insertAdjacentHTML": [
+      {
+        "info": {
+          "code": "\"insertAdjacentHTML\" in Element.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.Element.insertAdjacentHTML",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4286.0 Safari/537.36"
+}
