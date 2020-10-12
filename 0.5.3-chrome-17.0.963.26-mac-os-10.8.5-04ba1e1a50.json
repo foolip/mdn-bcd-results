@@ -1,7 +1,7 @@
 {
   "__version": "0.5.3",
   "results": {
-    "http://mdn-bcd-collector.appspot.com/tests/": [
+    "https://mdn-bcd-collector.appspot.com/tests/": [
       {
         "name": "api.AbortController",
         "info": {
@@ -314,7 +314,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'drawArraysInstancedANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'drawArraysInstancedANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.drawElementsInstancedANGLE",
@@ -322,7 +323,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'drawElementsInstancedANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'drawElementsInstancedANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE",
@@ -330,7 +332,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.vertexAttribDivisorANGLE",
@@ -338,7 +341,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'vertexAttribDivisorANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'vertexAttribDivisorANGLE' in null"
       },
       {
         "name": "api.Animation",
@@ -2855,7 +2859,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBiquadFilter();\n  return 'getFrequencyResponse' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.BiquadFilterNode.HIGHPASS",
@@ -5444,8 +5448,8 @@
           "code": "bcd.testConstructor(\"CloseEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.CloseEvent.code",
@@ -5461,7 +5465,7 @@
           "code": "\"initCloseEvent\" in CloseEvent.prototype",
           "exposure": "Window"
         },
-        "result": true
+        "result": false
       },
       {
         "name": "api.CloseEvent.reason",
@@ -10872,7 +10876,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'contains' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.contentType",
@@ -11417,7 +11421,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'height' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": true
+        "result": false
       },
       {
         "name": "api.Document.hidden",
@@ -12961,7 +12965,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'width' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": true
+        "result": false
       },
       {
         "name": "api.Document.write",
@@ -16777,8 +16781,8 @@
           "code": "bcd.testConstructor(\"ErrorEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.ErrorEvent.filename",
@@ -17298,7 +17302,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_blend_minmax');\n  return 'MAX_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MAX_EXT' in null"
       },
       {
         "name": "api.EXT_blend_minmax.MIN_EXT",
@@ -17306,7 +17311,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_blend_minmax');\n  return 'MIN_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MIN_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_float",
@@ -17330,7 +17336,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.RGB16F_EXT",
@@ -17338,7 +17345,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'RGB16F_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'RGB16F_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.RGBA16F_EXT",
@@ -17346,7 +17354,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'RGBA16F_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'RGBA16F_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.UNSIGNED_NORMALIZED_EXT",
@@ -17354,7 +17363,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'UNSIGNED_NORMALIZED_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'UNSIGNED_NORMALIZED_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query",
@@ -17370,7 +17380,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'beginQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'beginQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.createQueryEXT",
@@ -17378,7 +17389,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'createQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'createQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.CURRENT_QUERY_EXT",
@@ -17386,7 +17398,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'CURRENT_QUERY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'CURRENT_QUERY_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.deleteQueryEXT",
@@ -17394,7 +17407,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'deleteQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'deleteQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.endQueryEXT",
@@ -17402,7 +17416,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'endQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'endQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.getQueryEXT",
@@ -17410,7 +17425,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'getQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'getQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.getQueryObjectEXT",
@@ -17418,7 +17434,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'getQueryObjectEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'getQueryObjectEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.GPU_DISJOINT_EXT",
@@ -17426,7 +17443,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'GPU_DISJOINT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'GPU_DISJOINT_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.isQueryEXT",
@@ -17434,7 +17452,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'isQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'isQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_COUNTER_BITS_EXT",
@@ -17442,7 +17461,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_COUNTER_BITS_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_COUNTER_BITS_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_RESULT_AVAILABLE_EXT",
@@ -17450,7 +17470,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_RESULT_AVAILABLE_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_RESULT_AVAILABLE_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_RESULT_EXT",
@@ -17458,7 +17479,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_RESULT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_RESULT_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.queryCounterEXT",
@@ -17466,7 +17488,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'queryCounterEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'queryCounterEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.TIME_ELAPSED_EXT",
@@ -17474,7 +17497,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'TIME_ELAPSED_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TIME_ELAPSED_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.TIMESTAMP_EXT",
@@ -17482,7 +17506,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'TIMESTAMP_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TIMESTAMP_EXT' in null"
       },
       {
         "name": "api.EXT_float_blend",
@@ -17522,7 +17547,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB_ALPHA_EXT",
@@ -17530,7 +17556,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB_ALPHA_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB_ALPHA_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB_EXT",
@@ -17538,7 +17565,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB8_ALPHA8_EXT",
@@ -17546,7 +17574,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB8_ALPHA8_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB8_ALPHA8_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc",
@@ -17562,7 +17591,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT",
@@ -17570,7 +17600,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_RGBA_BPTC_UNORM_EXT",
@@ -17578,7 +17609,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGBA_BPTC_UNORM_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGBA_BPTC_UNORM_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT",
@@ -17586,7 +17618,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc",
@@ -17602,7 +17635,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_RED_GREEN_RGTC2_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RED_GREEN_RGTC2_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_RED_RGTC1_EXT",
@@ -17610,7 +17644,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_RED_RGTC1_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RED_RGTC1_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT",
@@ -17618,7 +17653,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_SIGNED_RED_RGTC1_EXT",
@@ -17626,7 +17662,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_SIGNED_RED_RGTC1_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SIGNED_RED_RGTC1_EXT' in null"
       },
       {
         "name": "api.EXT_texture_filter_anisotropic",
@@ -17642,7 +17679,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_filter_anisotropic'\n  );\n  return 'MAX_TEXTURE_MAX_ANISOTROPY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MAX_TEXTURE_MAX_ANISOTROPY_EXT' in null"
       },
       {
         "name": "api.EXT_texture_filter_anisotropic.TEXTURE_MAX_ANISOTROPY_EXT",
@@ -17650,7 +17688,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_filter_anisotropic'\n  );\n  return 'TEXTURE_MAX_ANISOTROPY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TEXTURE_MAX_ANISOTROPY_EXT' in null"
       },
       {
         "name": "api.External",
@@ -22031,8 +22070,8 @@
           "code": "bcd.testConstructor(\"HashChangeEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.HashChangeEvent.newURL",
@@ -36132,8 +36171,8 @@
           "code": "bcd.testConstructor(\"MessageEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MessageEvent.origin",
@@ -38409,7 +38448,7 @@
           "code": "\"contains\" in Node.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Node.DOCUMENT_FRAGMENT_NODE",
@@ -40046,8 +40085,8 @@
           "code": "bcd.testConstructor(\"PageTransitionEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.PageTransitionEvent.persisted",
@@ -42637,8 +42676,8 @@
           "code": "bcd.testConstructor(\"PopStateEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.PopStateEvent.state",
@@ -43123,8 +43162,8 @@
           "code": "bcd.testConstructor(\"ProgressEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.ProgressEvent.total",
@@ -49622,8 +49661,8 @@
           "code": "bcd.testConstructor(\"StorageEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.StorageEvent.url",
@@ -67718,8 +67757,8 @@
           "code": "bcd.testConstructor(\"WebGLContextEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.WebGLFramebuffer",
@@ -76611,8 +76650,7 @@
           "code": "\"webkitPrintColorAdjust\" in document.body.style || CSS.supports(\"-webkit-print-color-adjust\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.-webkit-tap-highlight-color",
@@ -76620,8 +76658,7 @@
           "code": "\"webkitTapHighlightColor\" in document.body.style || CSS.supports(\"-webkit-tap-highlight-color\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.-webkit-text-combine",
@@ -77276,8 +77313,7 @@
           "code": "\"borderImage\" in document.body.style || CSS.supports(\"border-image\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-image-outset",
@@ -77285,8 +77321,7 @@
           "code": "\"borderImageOutset\" in document.body.style || CSS.supports(\"border-image-outset\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-image-repeat",
@@ -77318,8 +77353,7 @@
           "code": "\"borderImageWidth\" in document.body.style || CSS.supports(\"border-image-width\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-inline",
@@ -88522,8 +88556,8 @@
           "code": "bcd.testConstructor(\"MessageEvent\");",
           "exposure": "Worker"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MessageEvent.origin",
@@ -107820,5 +107854,5 @@
       }
     ]
   },
-  "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2"
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.26 Safari/535.11"
 }

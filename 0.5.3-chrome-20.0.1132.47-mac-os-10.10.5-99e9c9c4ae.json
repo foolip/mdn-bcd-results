@@ -1,7 +1,7 @@
 {
   "__version": "0.5.3",
   "results": {
-    "http://mdn-bcd-collector.appspot.com/tests/": [
+    "https://mdn-bcd-collector.appspot.com/tests/": [
       {
         "name": "api.AbortController",
         "info": {
@@ -314,7 +314,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'drawArraysInstancedANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'drawArraysInstancedANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.drawElementsInstancedANGLE",
@@ -322,7 +323,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'drawElementsInstancedANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'drawElementsInstancedANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE",
@@ -330,7 +332,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.vertexAttribDivisorANGLE",
@@ -338,7 +341,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'vertexAttribDivisorANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'vertexAttribDivisorANGLE' in null"
       },
       {
         "name": "api.Animation",
@@ -2855,7 +2859,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBiquadFilter();\n  return 'getFrequencyResponse' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.BiquadFilterNode.HIGHPASS",
@@ -2943,8 +2947,7 @@
           "code": "bcd.testConstructor(\"Blob\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true
       },
       {
         "name": "api.Blob.size",
@@ -5444,8 +5447,8 @@
           "code": "bcd.testConstructor(\"CloseEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.CloseEvent.code",
@@ -5461,7 +5464,7 @@
           "code": "\"initCloseEvent\" in CloseEvent.prototype",
           "exposure": "Window"
         },
-        "result": true
+        "result": false
       },
       {
         "name": "api.CloseEvent.reason",
@@ -5918,7 +5921,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createConvolver();\n  return 'normalize' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.CookieChangeEvent",
@@ -10872,7 +10875,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'contains' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.contentType",
@@ -12529,7 +12532,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'onwebkitfullscreenerror' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.onwebkittransitionend",
@@ -12905,7 +12908,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'webkitExitFullscreen' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.webkitFullscreenElement",
@@ -12913,7 +12916,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'webkitFullscreenElement' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.webkitFullscreenEnabled",
@@ -12921,7 +12924,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'webkitFullscreenEnabled' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.webkitFullScreenKeyboardInputAllowed",
@@ -15206,7 +15209,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'attack' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.DynamicsCompressorNode",
@@ -15223,7 +15226,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'knee' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.ratio",
@@ -15231,7 +15234,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'ratio' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.reduction",
@@ -15239,7 +15242,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'reduction' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.release",
@@ -15247,7 +15250,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'release' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.threshold",
@@ -15255,7 +15258,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'threshold' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Element",
@@ -16559,7 +16562,7 @@
           "code": "\"webkitRequestFullscreen\" in Element.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Element.webkitRequestFullScreen",
@@ -16777,8 +16780,8 @@
           "code": "bcd.testConstructor(\"ErrorEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.ErrorEvent.filename",
@@ -16947,7 +16950,7 @@
           "code": "\"NONE\" in Event",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Event.originalTarget",
@@ -17298,7 +17301,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_blend_minmax');\n  return 'MAX_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MAX_EXT' in null"
       },
       {
         "name": "api.EXT_blend_minmax.MIN_EXT",
@@ -17306,7 +17310,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_blend_minmax');\n  return 'MIN_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MIN_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_float",
@@ -17330,7 +17335,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.RGB16F_EXT",
@@ -17338,7 +17344,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'RGB16F_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'RGB16F_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.RGBA16F_EXT",
@@ -17346,7 +17353,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'RGBA16F_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'RGBA16F_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.UNSIGNED_NORMALIZED_EXT",
@@ -17354,7 +17362,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'UNSIGNED_NORMALIZED_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'UNSIGNED_NORMALIZED_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query",
@@ -17370,7 +17379,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'beginQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'beginQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.createQueryEXT",
@@ -17378,7 +17388,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'createQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'createQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.CURRENT_QUERY_EXT",
@@ -17386,7 +17397,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'CURRENT_QUERY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'CURRENT_QUERY_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.deleteQueryEXT",
@@ -17394,7 +17406,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'deleteQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'deleteQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.endQueryEXT",
@@ -17402,7 +17415,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'endQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'endQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.getQueryEXT",
@@ -17410,7 +17424,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'getQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'getQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.getQueryObjectEXT",
@@ -17418,7 +17433,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'getQueryObjectEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'getQueryObjectEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.GPU_DISJOINT_EXT",
@@ -17426,7 +17442,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'GPU_DISJOINT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'GPU_DISJOINT_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.isQueryEXT",
@@ -17434,7 +17451,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'isQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'isQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_COUNTER_BITS_EXT",
@@ -17442,7 +17460,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_COUNTER_BITS_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_COUNTER_BITS_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_RESULT_AVAILABLE_EXT",
@@ -17450,7 +17469,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_RESULT_AVAILABLE_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_RESULT_AVAILABLE_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_RESULT_EXT",
@@ -17458,7 +17478,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_RESULT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_RESULT_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.queryCounterEXT",
@@ -17466,7 +17487,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'queryCounterEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'queryCounterEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.TIME_ELAPSED_EXT",
@@ -17474,7 +17496,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'TIME_ELAPSED_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TIME_ELAPSED_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.TIMESTAMP_EXT",
@@ -17482,7 +17505,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'TIMESTAMP_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TIMESTAMP_EXT' in null"
       },
       {
         "name": "api.EXT_float_blend",
@@ -17522,7 +17546,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB_ALPHA_EXT",
@@ -17530,7 +17555,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB_ALPHA_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB_ALPHA_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB_EXT",
@@ -17538,7 +17564,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB8_ALPHA8_EXT",
@@ -17546,7 +17573,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB8_ALPHA8_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB8_ALPHA8_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc",
@@ -17562,7 +17590,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT",
@@ -17570,7 +17599,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_RGBA_BPTC_UNORM_EXT",
@@ -17578,7 +17608,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGBA_BPTC_UNORM_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGBA_BPTC_UNORM_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT",
@@ -17586,7 +17617,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc",
@@ -17602,7 +17634,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_RED_GREEN_RGTC2_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RED_GREEN_RGTC2_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_RED_RGTC1_EXT",
@@ -17610,7 +17643,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_RED_RGTC1_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RED_RGTC1_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT",
@@ -17618,7 +17652,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_SIGNED_RED_RGTC1_EXT",
@@ -17626,7 +17661,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_SIGNED_RED_RGTC1_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SIGNED_RED_RGTC1_EXT' in null"
       },
       {
         "name": "api.EXT_texture_filter_anisotropic",
@@ -17642,7 +17678,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_filter_anisotropic'\n  );\n  return 'MAX_TEXTURE_MAX_ANISOTROPY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MAX_TEXTURE_MAX_ANISOTROPY_EXT' in null"
       },
       {
         "name": "api.EXT_texture_filter_anisotropic.TEXTURE_MAX_ANISOTROPY_EXT",
@@ -17650,7 +17687,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_filter_anisotropic'\n  );\n  return 'TEXTURE_MAX_ANISOTROPY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TEXTURE_MAX_ANISOTROPY_EXT' in null"
       },
       {
         "name": "api.External",
@@ -22031,8 +22069,8 @@
           "code": "bcd.testConstructor(\"HashChangeEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.HashChangeEvent.newURL",
@@ -24010,7 +24048,7 @@
           "code": "\"HTMLDataListElement\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLDataListElement.HTMLDataListElement",
@@ -24018,8 +24056,8 @@
           "code": "bcd.testConstructor(\"HTMLDataListElement\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLDataListElement is not defined"
+        "result": false,
+        "message": "threw TypeError: Illegal constructor"
       },
       {
         "name": "api.HTMLDataListElement.options",
@@ -24027,8 +24065,7 @@
           "code": "\"options\" in HTMLDataListElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLDataListElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLDetailsElement",
@@ -24271,7 +24308,7 @@
           "code": "\"click\" in HTMLElement.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLElement.contentEditable",
@@ -29851,7 +29888,7 @@
           "code": "\"createTBody\" in HTMLTableElement.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLTableElement.createTFoot",
@@ -36132,8 +36169,8 @@
           "code": "bcd.testConstructor(\"MessageEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MessageEvent.origin",
@@ -38409,7 +38446,7 @@
           "code": "\"contains\" in Node.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Node.DOCUMENT_FRAGMENT_NODE",
@@ -38921,7 +38958,7 @@
           "code": "\"Notification\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Notification.actions",
@@ -38929,8 +38966,7 @@
           "code": "\"actions\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.badge",
@@ -38938,8 +38974,7 @@
           "code": "\"badge\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.body",
@@ -38947,8 +38982,7 @@
           "code": "\"body\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.close",
@@ -38956,8 +38990,7 @@
           "code": "\"close\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": true
       },
       {
         "name": "api.Notification.data",
@@ -38965,8 +38998,7 @@
           "code": "\"data\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.dir",
@@ -38974,8 +39006,7 @@
           "code": "\"dir\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.icon",
@@ -38983,8 +39014,7 @@
           "code": "\"icon\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.image",
@@ -38992,8 +39022,7 @@
           "code": "\"image\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.lang",
@@ -39001,8 +39030,7 @@
           "code": "\"lang\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.maxActions",
@@ -39010,8 +39038,7 @@
           "code": "\"maxActions\" in Notification",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.Notification",
@@ -39019,8 +39046,8 @@
           "code": "bcd.testConstructor(\"Notification\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.Notification.onclick",
@@ -39028,8 +39055,7 @@
           "code": "\"onclick\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.onclose",
@@ -39037,8 +39063,7 @@
           "code": "\"onclose\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.onerror",
@@ -39046,8 +39071,7 @@
           "code": "\"onerror\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.onshow",
@@ -39055,8 +39079,7 @@
           "code": "\"onshow\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.permission",
@@ -39064,8 +39087,7 @@
           "code": "\"permission\" in Notification",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.renotify",
@@ -39073,8 +39095,7 @@
           "code": "\"renotify\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.requestPermission",
@@ -39082,8 +39103,7 @@
           "code": "\"requestPermission\" in Notification",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": true
       },
       {
         "name": "api.Notification.requireInteraction",
@@ -39091,8 +39111,7 @@
           "code": "\"requireInteraction\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.silent",
@@ -39100,8 +39119,7 @@
           "code": "\"silent\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.tag",
@@ -39109,8 +39127,7 @@
           "code": "\"tag\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.timestamp",
@@ -39118,8 +39135,7 @@
           "code": "\"timestamp\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.title",
@@ -39127,8 +39143,7 @@
           "code": "\"title\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.vibrate",
@@ -39136,8 +39151,7 @@
           "code": "\"vibrate\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.OfflineAudioCompletionEvent",
@@ -39877,8 +39891,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return !!instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.CUSTOM",
@@ -39886,8 +39899,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'CUSTOM' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.detune",
@@ -39895,8 +39907,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'detune' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.frequency",
@@ -39904,8 +39915,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'frequency' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.noteOff",
@@ -39913,8 +39923,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'noteOff' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.noteOn",
@@ -39922,8 +39931,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'noteOn' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.onended",
@@ -39931,8 +39939,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'onended' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.OscillatorNode",
@@ -39949,8 +39956,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'SAWTOOTH' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.setPeriodicWave",
@@ -39958,8 +39964,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'setPeriodicWave' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.SINE",
@@ -39967,8 +39972,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'SINE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.SQUARE",
@@ -39976,8 +39980,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'SQUARE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.start",
@@ -39985,8 +39988,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'start' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.stop",
@@ -39994,8 +39996,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'stop' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.TRIANGLE",
@@ -40003,8 +40004,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'TRIANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.type",
@@ -40012,8 +40012,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'type' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OTPCredential",
@@ -40046,8 +40045,8 @@
           "code": "bcd.testConstructor(\"PageTransitionEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.PageTransitionEvent.persisted",
@@ -40111,7 +40110,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createPanner();\n  return 'EXPONENTIAL_DISTANCE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.PannerNode.HRTF",
@@ -40127,7 +40126,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createPanner();\n  return 'INVERSE_DISTANCE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.PannerNode.LINEAR_DISTANCE",
@@ -40135,7 +40134,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createPanner();\n  return 'LINEAR_DISTANCE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.PannerNode.maxDistance",
@@ -42637,8 +42636,8 @@
           "code": "bcd.testConstructor(\"PopStateEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.PopStateEvent.state",
@@ -43123,8 +43122,8 @@
           "code": "bcd.testConstructor(\"ProgressEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.ProgressEvent.total",
@@ -47434,7 +47433,7 @@
           "code": "\"Selection\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Selection.addRange",
@@ -47442,8 +47441,7 @@
           "code": "\"addRange\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.anchorNode",
@@ -47451,8 +47449,7 @@
           "code": "\"anchorNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.anchorOffset",
@@ -47460,8 +47457,7 @@
           "code": "\"anchorOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.baseNode",
@@ -47469,8 +47465,7 @@
           "code": "\"baseNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.baseOffset",
@@ -47478,8 +47473,7 @@
           "code": "\"baseOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.collapse",
@@ -47487,8 +47481,7 @@
           "code": "\"collapse\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.collapseToEnd",
@@ -47496,8 +47489,7 @@
           "code": "\"collapseToEnd\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.collapseToStart",
@@ -47505,8 +47497,7 @@
           "code": "\"collapseToStart\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.containsNode",
@@ -47514,8 +47505,7 @@
           "code": "\"containsNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.deleteFromDocument",
@@ -47523,8 +47513,7 @@
           "code": "\"deleteFromDocument\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.empty",
@@ -47532,8 +47521,7 @@
           "code": "\"empty\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.extend",
@@ -47541,8 +47529,7 @@
           "code": "\"extend\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.extentNode",
@@ -47550,8 +47537,7 @@
           "code": "\"extentNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.extentOffset",
@@ -47559,8 +47545,7 @@
           "code": "\"extentOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.focusNode",
@@ -47568,8 +47553,7 @@
           "code": "\"focusNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.focusOffset",
@@ -47577,8 +47561,7 @@
           "code": "\"focusOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.getRangeAt",
@@ -47586,8 +47569,7 @@
           "code": "\"getRangeAt\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.isCollapsed",
@@ -47595,8 +47577,7 @@
           "code": "\"isCollapsed\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.modify",
@@ -47604,8 +47585,7 @@
           "code": "\"modify\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.rangeCount",
@@ -47613,8 +47593,7 @@
           "code": "\"rangeCount\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.removeAllRanges",
@@ -47622,8 +47601,7 @@
           "code": "\"removeAllRanges\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.removeRange",
@@ -47631,8 +47609,7 @@
           "code": "\"removeRange\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.selectAllChildren",
@@ -47640,8 +47617,7 @@
           "code": "\"selectAllChildren\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.setBaseAndExtent",
@@ -47649,8 +47625,7 @@
           "code": "\"setBaseAndExtent\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.setPosition",
@@ -47658,8 +47633,7 @@
           "code": "\"setPosition\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.toString",
@@ -47667,8 +47641,7 @@
           "code": "\"toString\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.type",
@@ -47676,8 +47649,7 @@
           "code": "\"type\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.SendStream",
@@ -49622,8 +49594,8 @@
           "code": "bcd.testConstructor(\"StorageEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.StorageEvent.url",
@@ -67718,8 +67690,8 @@
           "code": "bcd.testConstructor(\"WebGLContextEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.WebGLFramebuffer",
@@ -68255,7 +68227,7 @@
           "code": "\"compressedTexImage2D\" in WebGLRenderingContext.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLRenderingContext.compressedTexSubImage2D",
@@ -68263,7 +68235,7 @@
           "code": "\"compressedTexSubImage2D\" in WebGLRenderingContext.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLRenderingContext.CONSTANT_ALPHA",
@@ -69127,7 +69099,7 @@
           "code": "\"getShaderPrecisionFormat\" in WebGLRenderingContext.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLRenderingContext.getShaderSource",
@@ -71279,7 +71251,7 @@
           "code": "\"WebGLShaderPrecisionFormat\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLShaderPrecisionFormat.precision",
@@ -71287,8 +71259,7 @@
           "code": "\"precision\" in WebGLShaderPrecisionFormat.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: WebGLShaderPrecisionFormat is not defined"
+        "result": false
       },
       {
         "name": "api.WebGLShaderPrecisionFormat.rangeMax",
@@ -71296,8 +71267,7 @@
           "code": "\"rangeMax\" in WebGLShaderPrecisionFormat.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: WebGLShaderPrecisionFormat is not defined"
+        "result": false
       },
       {
         "name": "api.WebGLShaderPrecisionFormat.rangeMin",
@@ -71305,8 +71275,7 @@
           "code": "\"rangeMin\" in WebGLShaderPrecisionFormat.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: WebGLShaderPrecisionFormat is not defined"
+        "result": false
       },
       {
         "name": "api.WebGLSync",
@@ -71499,7 +71468,7 @@
           "exposure": "Window"
         },
         "result": true,
-        "message": "threw SyntaxError: Not enough arguments"
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.WheelEvent",
@@ -73476,7 +73445,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'webkitCancelAnimationFrame' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.webkitCancelRequestAnimationFrame",
@@ -73500,7 +73469,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'WebKitMutationObserver' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.webkitRequestAnimationFrame",
@@ -76611,8 +76580,7 @@
           "code": "\"webkitPrintColorAdjust\" in document.body.style || CSS.supports(\"-webkit-print-color-adjust\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.-webkit-tap-highlight-color",
@@ -76620,8 +76588,7 @@
           "code": "\"webkitTapHighlightColor\" in document.body.style || CSS.supports(\"-webkit-tap-highlight-color\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.-webkit-text-combine",
@@ -77276,8 +77243,7 @@
           "code": "\"borderImage\" in document.body.style || CSS.supports(\"border-image\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-image-outset",
@@ -77285,8 +77251,7 @@
           "code": "\"borderImageOutset\" in document.body.style || CSS.supports(\"border-image-outset\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-image-repeat",
@@ -77318,8 +77283,7 @@
           "code": "\"borderImageWidth\" in document.body.style || CSS.supports(\"border-image-width\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-inline",
@@ -81948,7 +81912,7 @@
           "code": "\"Blob\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Blob.arrayBuffer",
@@ -81956,8 +81920,7 @@
           "code": "\"arrayBuffer\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.Blob",
@@ -81965,8 +81928,7 @@
           "code": "bcd.testConstructor(\"Blob\");",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": true
       },
       {
         "name": "api.Blob.size",
@@ -81974,8 +81936,7 @@
           "code": "\"size\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.slice",
@@ -81983,8 +81944,7 @@
           "code": "\"slice\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.stream",
@@ -81992,8 +81952,7 @@
           "code": "\"stream\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.text",
@@ -82001,8 +81960,7 @@
           "code": "\"text\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.type",
@@ -82010,8 +81968,7 @@
           "code": "\"type\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.BroadcastChannel",
@@ -88522,8 +88479,8 @@
           "code": "bcd.testConstructor(\"MessageEvent\");",
           "exposure": "Worker"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MessageEvent.origin",
@@ -104596,7 +104553,7 @@
           "exposure": "Worker"
         },
         "result": true,
-        "message": "threw SyntaxError: Not enough arguments"
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.WorkerGlobalScope",
@@ -107820,5 +107777,5 @@
       }
     ]
   },
-  "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2"
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.47 Safari/536.11"
 }

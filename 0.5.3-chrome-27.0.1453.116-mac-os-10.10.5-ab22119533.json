@@ -1,7 +1,7 @@
 {
   "__version": "0.5.3",
   "results": {
-    "http://mdn-bcd-collector.appspot.com/tests/": [
+    "https://mdn-bcd-collector.appspot.com/tests/": [
       {
         "name": "api.AbortController",
         "info": {
@@ -314,7 +314,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'drawArraysInstancedANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'drawArraysInstancedANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.drawElementsInstancedANGLE",
@@ -322,7 +323,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'drawElementsInstancedANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'drawElementsInstancedANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE",
@@ -330,7 +332,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'VERTEX_ATTRIB_ARRAY_DIVISOR_ANGLE' in null"
       },
       {
         "name": "api.ANGLE_instanced_arrays.vertexAttribDivisorANGLE",
@@ -338,7 +341,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('ANGLE_instanced_arrays');\n  return 'vertexAttribDivisorANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'vertexAttribDivisorANGLE' in null"
       },
       {
         "name": "api.Animation",
@@ -1082,7 +1086,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBufferSource();\n  return 'loopEnd' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioBufferSourceNode.looping",
@@ -1098,7 +1102,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBufferSource();\n  return 'loopStart' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioBufferSourceNode.noteGrainOn",
@@ -1146,7 +1150,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBufferSource();\n  return 'start' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioBufferSourceNode.stop",
@@ -1154,7 +1158,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBufferSource();\n  return 'stop' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioContext",
@@ -1314,7 +1318,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.destination;\n  return 'maxChannelCount' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioListener",
@@ -1450,7 +1454,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createAnalyser();\n  return 'channelCount' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioNode.channelCountMode",
@@ -1458,7 +1462,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createAnalyser();\n  return 'channelCountMode' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioNode.channelInterpretation",
@@ -1466,7 +1470,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createAnalyser();\n  return 'channelInterpretation' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.AudioNode.connect",
@@ -1514,8 +1518,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return !!instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.automationRate",
@@ -1523,8 +1526,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'automationRate' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": false
       },
       {
         "name": "api.AudioParam.cancelAndHoldAtTime",
@@ -1532,8 +1534,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'cancelAndHoldAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": false
       },
       {
         "name": "api.AudioParam.cancelScheduledValues",
@@ -1541,8 +1542,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'cancelScheduledValues' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.cancelValuesAndHoldAtTime",
@@ -1550,8 +1550,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'cancelValuesAndHoldAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": false
       },
       {
         "name": "api.AudioParam.defaultValue",
@@ -1559,8 +1558,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'defaultValue' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.exponentialRampToValueAtTime",
@@ -1568,8 +1566,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'exponentialRampToValueAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.linearRampToValueAtTime",
@@ -1577,8 +1574,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'linearRampToValueAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.maxValue",
@@ -1586,8 +1582,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'maxValue' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.minValue",
@@ -1595,8 +1590,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'minValue' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.setTargetAtTime",
@@ -1604,8 +1598,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'setTargetAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.setTargetValueAtTime",
@@ -1613,8 +1606,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'setTargetValueAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.setValueAtTime",
@@ -1622,8 +1614,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'setValueAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.setValueCurveAtTime",
@@ -1631,8 +1622,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'setValueCurveAtTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParam.value",
@@ -1640,8 +1630,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var gainNode = reusableInstances.audioContext.createGain();\n  var instance = gainNode.gain;\n  return 'value' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.AudioParamMap",
@@ -2831,7 +2820,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBiquadFilter();\n  return 'detune' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.BiquadFilterNode.frequency",
@@ -2855,7 +2844,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createBiquadFilter();\n  return 'getFrequencyResponse' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.BiquadFilterNode.HIGHPASS",
@@ -2943,8 +2932,7 @@
           "code": "bcd.testConstructor(\"Blob\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true
       },
       {
         "name": "api.Blob.size",
@@ -2960,7 +2948,7 @@
           "code": "\"slice\" in Blob.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Blob.stream",
@@ -4790,7 +4778,7 @@
           "code": "\"getLineDash\" in CanvasRenderingContext2D.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.CanvasRenderingContext2D.getTransform",
@@ -4846,7 +4834,7 @@
           "code": "\"isPointInStroke\" in CanvasRenderingContext2D.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.CanvasRenderingContext2D.lineCap",
@@ -4998,7 +4986,7 @@
           "code": "\"setLineDash\" in CanvasRenderingContext2D.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.CanvasRenderingContext2D.setTransform",
@@ -5267,7 +5255,7 @@
           "code": "\"remove\" in CharacterData.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.CharacterData.replaceData",
@@ -5444,8 +5432,8 @@
           "code": "bcd.testConstructor(\"CloseEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.CloseEvent.code",
@@ -5461,7 +5449,7 @@
           "code": "\"initCloseEvent\" in CloseEvent.prototype",
           "exposure": "Window"
         },
-        "result": true
+        "result": false
       },
       {
         "name": "api.CloseEvent.reason",
@@ -5510,8 +5498,8 @@
           "code": "bcd.testConstructor(\"CompositionEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.CompositionEvent.data",
@@ -5594,7 +5582,7 @@
           "code": "\"clear\" in console",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Console.count",
@@ -5714,7 +5702,7 @@
           "code": "\"table\" in console",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Console.time",
@@ -5918,7 +5906,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createConvolver();\n  return 'normalize' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.CookieChangeEvent",
@@ -10191,8 +10179,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDelay();\n  return !!instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createDelay'"
+        "result": true
       },
       {
         "name": "api.DelayNode.DelayNode",
@@ -10209,8 +10196,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDelay();\n  return 'delayTime' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createDelay'"
+        "result": true
       },
       {
         "name": "api.DeprecationReportBody",
@@ -10872,7 +10858,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'contains' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.contentType",
@@ -12529,7 +12515,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'onwebkitfullscreenerror' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.onwebkittransitionend",
@@ -12905,7 +12891,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'webkitExitFullscreen' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.webkitFullscreenElement",
@@ -12913,7 +12899,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'webkitFullscreenElement' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.webkitFullscreenEnabled",
@@ -12921,7 +12907,7 @@
           "code": "(function () {\n  var instance = document;\n  return 'webkitFullscreenEnabled' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Document.webkitFullScreenKeyboardInputAllowed",
@@ -13187,7 +13173,7 @@
           "code": "\"remove\" in DocumentType.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DocumentType.replaceWith",
@@ -13466,7 +13452,7 @@
           "code": "\"message\" in DOMException.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DOMException.name",
@@ -13474,7 +13460,7 @@
           "code": "\"name\" in DOMException.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DOMException.NAMESPACE_ERR",
@@ -15206,7 +15192,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'attack' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.DynamicsCompressorNode",
@@ -15223,7 +15209,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'knee' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.ratio",
@@ -15231,7 +15217,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'ratio' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.reduction",
@@ -15239,7 +15225,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'reduction' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.release",
@@ -15247,7 +15233,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'release' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.DynamicsCompressorNode.threshold",
@@ -15255,7 +15241,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createDynamicsCompressor();\n  return 'threshold' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Element",
@@ -16239,7 +16225,7 @@
           "code": "\"remove\" in Element.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Element.removeAttribute",
@@ -16559,7 +16545,7 @@
           "code": "\"webkitRequestFullscreen\" in Element.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Element.webkitRequestFullScreen",
@@ -16777,8 +16763,8 @@
           "code": "bcd.testConstructor(\"ErrorEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.ErrorEvent.filename",
@@ -16947,7 +16933,7 @@
           "code": "\"NONE\" in Event",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Event.originalTarget",
@@ -17298,7 +17284,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_blend_minmax');\n  return 'MAX_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MAX_EXT' in null"
       },
       {
         "name": "api.EXT_blend_minmax.MIN_EXT",
@@ -17306,7 +17293,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_blend_minmax');\n  return 'MIN_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MIN_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_float",
@@ -17330,7 +17318,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.RGB16F_EXT",
@@ -17338,7 +17327,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'RGB16F_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'RGB16F_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.RGBA16F_EXT",
@@ -17346,7 +17336,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'RGBA16F_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'RGBA16F_EXT' in null"
       },
       {
         "name": "api.EXT_color_buffer_half_float.UNSIGNED_NORMALIZED_EXT",
@@ -17354,7 +17345,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_color_buffer_half_float'\n  );\n  return 'UNSIGNED_NORMALIZED_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'UNSIGNED_NORMALIZED_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query",
@@ -17370,7 +17362,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'beginQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'beginQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.createQueryEXT",
@@ -17378,7 +17371,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'createQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'createQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.CURRENT_QUERY_EXT",
@@ -17386,7 +17380,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'CURRENT_QUERY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'CURRENT_QUERY_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.deleteQueryEXT",
@@ -17394,7 +17389,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'deleteQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'deleteQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.endQueryEXT",
@@ -17402,7 +17398,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'endQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'endQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.getQueryEXT",
@@ -17410,7 +17407,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'getQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'getQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.getQueryObjectEXT",
@@ -17418,7 +17416,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'getQueryObjectEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'getQueryObjectEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.GPU_DISJOINT_EXT",
@@ -17426,7 +17425,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'GPU_DISJOINT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'GPU_DISJOINT_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.isQueryEXT",
@@ -17434,7 +17434,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'isQueryEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'isQueryEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_COUNTER_BITS_EXT",
@@ -17442,7 +17443,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_COUNTER_BITS_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_COUNTER_BITS_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_RESULT_AVAILABLE_EXT",
@@ -17450,7 +17452,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_RESULT_AVAILABLE_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_RESULT_AVAILABLE_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.QUERY_RESULT_EXT",
@@ -17458,7 +17461,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'QUERY_RESULT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'QUERY_RESULT_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.queryCounterEXT",
@@ -17466,7 +17470,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'queryCounterEXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'queryCounterEXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.TIME_ELAPSED_EXT",
@@ -17474,7 +17479,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'TIME_ELAPSED_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TIME_ELAPSED_EXT' in null"
       },
       {
         "name": "api.EXT_disjoint_timer_query.TIMESTAMP_EXT",
@@ -17482,7 +17488,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_disjoint_timer_query'\n  );\n  return 'TIMESTAMP_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TIMESTAMP_EXT' in null"
       },
       {
         "name": "api.EXT_float_blend",
@@ -17522,7 +17529,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB_ALPHA_EXT",
@@ -17530,7 +17538,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB_ALPHA_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB_ALPHA_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB_EXT",
@@ -17538,7 +17547,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB_EXT' in null"
       },
       {
         "name": "api.EXT_sRGB.SRGB8_ALPHA8_EXT",
@@ -17546,7 +17556,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension('EXT_sRGB');\n  return 'SRGB8_ALPHA8_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'SRGB8_ALPHA8_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc",
@@ -17562,7 +17573,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT",
@@ -17570,7 +17582,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_RGBA_BPTC_UNORM_EXT",
@@ -17578,7 +17591,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_RGBA_BPTC_UNORM_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RGBA_BPTC_UNORM_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_bptc.COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT",
@@ -17586,7 +17600,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_bptc'\n  );\n  return 'COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc",
@@ -17602,7 +17617,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_RED_GREEN_RGTC2_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RED_GREEN_RGTC2_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_RED_RGTC1_EXT",
@@ -17610,7 +17626,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_RED_RGTC1_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_RED_RGTC1_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT",
@@ -17618,7 +17635,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT' in null"
       },
       {
         "name": "api.EXT_texture_compression_rgtc.COMPRESSED_SIGNED_RED_RGTC1_EXT",
@@ -17626,7 +17644,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_compression_rgtc'\n  );\n  return 'COMPRESSED_SIGNED_RED_RGTC1_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'COMPRESSED_SIGNED_RED_RGTC1_EXT' in null"
       },
       {
         "name": "api.EXT_texture_filter_anisotropic",
@@ -17642,7 +17661,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_filter_anisotropic'\n  );\n  return 'MAX_TEXTURE_MAX_ANISOTROPY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'MAX_TEXTURE_MAX_ANISOTROPY_EXT' in null"
       },
       {
         "name": "api.EXT_texture_filter_anisotropic.TEXTURE_MAX_ANISOTROPY_EXT",
@@ -17650,7 +17670,8 @@
           "code": "(function () {\n  if (!reusableInstances.webGL) {\n    return false;\n  }\n  var instance = reusableInstances.webGL.getExtension(\n    'EXT_texture_filter_anisotropic'\n  );\n  return 'TEXTURE_MAX_ANISOTROPY_EXT' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw TypeError: Cannot use 'in' operator to search for 'TEXTURE_MAX_ANISOTROPY_EXT' in null"
       },
       {
         "name": "api.External",
@@ -18750,7 +18771,7 @@
           "code": "\"FocusEvent\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.FocusEvent.FocusEvent",
@@ -18758,8 +18779,8 @@
           "code": "bcd.testConstructor(\"FocusEvent\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: FocusEvent is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.FocusEvent.relatedTarget",
@@ -18767,8 +18788,7 @@
           "code": "\"relatedTarget\" in FocusEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: FocusEvent is not defined"
+        "result": false
       },
       {
         "name": "api.Font",
@@ -19588,8 +19608,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createGain();\n  return !!instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.GainNode.gain",
@@ -19597,8 +19616,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createGain();\n  return 'gain' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createGain'"
+        "result": true
       },
       {
         "name": "api.GainNode.GainNode",
@@ -22031,8 +22049,8 @@
           "code": "bcd.testConstructor(\"HashChangeEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.HashChangeEvent.newURL",
@@ -24010,7 +24028,7 @@
           "code": "\"HTMLDataListElement\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLDataListElement.HTMLDataListElement",
@@ -24018,8 +24036,8 @@
           "code": "bcd.testConstructor(\"HTMLDataListElement\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLDataListElement is not defined"
+        "result": false,
+        "message": "threw TypeError: Illegal constructor"
       },
       {
         "name": "api.HTMLDataListElement.options",
@@ -24027,8 +24045,7 @@
           "code": "\"options\" in HTMLDataListElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLDataListElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLDetailsElement",
@@ -24271,7 +24288,7 @@
           "code": "\"click\" in HTMLElement.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLElement.contentEditable",
@@ -25555,7 +25572,7 @@
           "code": "\"HTMLFormControlsCollection\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLFormControlsCollection.namedItem",
@@ -25563,8 +25580,7 @@
           "code": "\"namedItem\" in HTMLFormControlsCollection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLFormControlsCollection is not defined"
+        "result": true
       },
       {
         "name": "api.HTMLFormElement",
@@ -26942,7 +26958,7 @@
           "code": "\"setRangeText\" in HTMLInputElement.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLInputElement.setSelectionRange",
@@ -27540,7 +27556,7 @@
           "code": "\"addTextTrack\" in HTMLMediaElement.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLMediaElement.audioTracks",
@@ -28628,7 +28644,7 @@
           "code": "\"HTMLOptionsCollection\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLOptionsCollection.add",
@@ -28636,8 +28652,7 @@
           "code": "\"add\" in HTMLOptionsCollection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLOptionsCollection is not defined"
+        "result": true
       },
       {
         "name": "api.HTMLOptionsCollection.length",
@@ -28645,8 +28660,7 @@
           "code": "\"length\" in HTMLOptionsCollection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLOptionsCollection is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLOptionsCollection.remove",
@@ -28654,8 +28668,7 @@
           "code": "\"remove\" in HTMLOptionsCollection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLOptionsCollection is not defined"
+        "result": true
       },
       {
         "name": "api.HTMLOptionsCollection.selectedIndex",
@@ -28663,8 +28676,7 @@
           "code": "\"selectedIndex\" in HTMLOptionsCollection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLOptionsCollection is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLOutputElement",
@@ -29851,7 +29863,7 @@
           "code": "\"createTBody\" in HTMLTableElement.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLTableElement.createTFoot",
@@ -30158,7 +30170,7 @@
           "code": "\"HTMLTemplateElement\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLTemplateElement.content",
@@ -30166,8 +30178,7 @@
           "code": "\"content\" in HTMLTemplateElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTemplateElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLTemplateElement.HTMLTemplateElement",
@@ -30175,8 +30186,8 @@
           "code": "bcd.testConstructor(\"HTMLTemplateElement\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTemplateElement is not defined"
+        "result": false,
+        "message": "threw TypeError: Illegal constructor"
       },
       {
         "name": "api.HTMLTextAreaElement",
@@ -30369,7 +30380,7 @@
           "code": "\"setRangeText\" in HTMLTextAreaElement.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLTextAreaElement.setSelectionRange",
@@ -30492,7 +30503,7 @@
           "code": "\"HTMLTrackElement\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.HTMLTrackElement.default",
@@ -30500,8 +30511,7 @@
           "code": "\"default\" in HTMLTrackElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLTrackElement.ERROR",
@@ -30509,8 +30519,7 @@
           "code": "\"ERROR\" in HTMLTrackElement",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": true
       },
       {
         "name": "api.HTMLTrackElement.HTMLTrackElement",
@@ -30518,8 +30527,8 @@
           "code": "bcd.testConstructor(\"HTMLTrackElement\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false,
+        "message": "threw TypeError: Illegal constructor"
       },
       {
         "name": "api.HTMLTrackElement.kind",
@@ -30527,8 +30536,7 @@
           "code": "\"kind\" in HTMLTrackElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLTrackElement.label",
@@ -30536,8 +30544,7 @@
           "code": "\"label\" in HTMLTrackElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLTrackElement.LOADED",
@@ -30545,8 +30552,7 @@
           "code": "\"LOADED\" in HTMLTrackElement",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": true
       },
       {
         "name": "api.HTMLTrackElement.LOADING",
@@ -30554,8 +30560,7 @@
           "code": "\"LOADING\" in HTMLTrackElement",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": true
       },
       {
         "name": "api.HTMLTrackElement.NONE",
@@ -30563,8 +30568,7 @@
           "code": "\"NONE\" in HTMLTrackElement",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": true
       },
       {
         "name": "api.HTMLTrackElement.readyState",
@@ -30572,8 +30576,7 @@
           "code": "\"readyState\" in HTMLTrackElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLTrackElement.src",
@@ -30581,8 +30584,7 @@
           "code": "\"src\" in HTMLTrackElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLTrackElement.srclang",
@@ -30590,8 +30592,7 @@
           "code": "\"srclang\" in HTMLTrackElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLTrackElement.track",
@@ -30599,8 +30600,7 @@
           "code": "\"track\" in HTMLTrackElement.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: HTMLTrackElement is not defined"
+        "result": false
       },
       {
         "name": "api.HTMLUListElement",
@@ -31014,7 +31014,7 @@
           "code": "\"IDBCursor\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBCursor.advance",
@@ -31022,8 +31022,7 @@
           "code": "\"advance\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursor.continue",
@@ -31031,8 +31030,7 @@
           "code": "\"continue\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursor.continuePrimaryKey",
@@ -31040,8 +31038,7 @@
           "code": "\"continuePrimaryKey\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.delete",
@@ -31049,8 +31046,7 @@
           "code": "\"delete\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursor.direction",
@@ -31058,8 +31054,7 @@
           "code": "\"direction\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.key",
@@ -31067,8 +31062,7 @@
           "code": "\"key\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.primaryKey",
@@ -31076,8 +31070,7 @@
           "code": "\"primaryKey\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.request",
@@ -31085,8 +31078,7 @@
           "code": "\"request\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.source",
@@ -31094,8 +31086,7 @@
           "code": "\"source\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.update",
@@ -31103,8 +31094,7 @@
           "code": "\"update\" in IDBCursor.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursorWithValue",
@@ -31112,7 +31102,7 @@
           "code": "\"IDBCursorWithValue\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBCursorWithValue.value",
@@ -31120,8 +31110,7 @@
           "code": "\"value\" in IDBCursorWithValue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursorWithValue is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase",
@@ -31129,7 +31118,7 @@
           "code": "\"IDBDatabase\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBDatabase.close",
@@ -31137,8 +31126,7 @@
           "code": "\"close\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.createObjectStore",
@@ -31146,8 +31134,7 @@
           "code": "\"createObjectStore\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.deleteObjectStore",
@@ -31155,8 +31142,7 @@
           "code": "\"deleteObjectStore\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.name",
@@ -31164,8 +31150,7 @@
           "code": "\"name\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.objectStoreNames",
@@ -31173,8 +31158,7 @@
           "code": "\"objectStoreNames\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onabort",
@@ -31182,8 +31166,7 @@
           "code": "\"onabort\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onclose",
@@ -31191,8 +31174,7 @@
           "code": "\"onclose\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onerror",
@@ -31200,8 +31182,7 @@
           "code": "\"onerror\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onversionchange",
@@ -31209,8 +31190,7 @@
           "code": "\"onversionchange\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.transaction",
@@ -31218,8 +31198,7 @@
           "code": "\"transaction\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.version",
@@ -31227,8 +31206,7 @@
           "code": "\"version\" in IDBDatabase.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBFactory",
@@ -31236,7 +31214,7 @@
           "code": "\"IDBFactory\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBFactory.cmp",
@@ -31244,8 +31222,7 @@
           "code": "\"cmp\" in IDBFactory.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": true
       },
       {
         "name": "api.IDBFactory.databases",
@@ -31253,8 +31230,7 @@
           "code": "\"databases\" in IDBFactory.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": false
       },
       {
         "name": "api.IDBFactory.deleteDatabase",
@@ -31262,8 +31238,7 @@
           "code": "\"deleteDatabase\" in IDBFactory.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": true
       },
       {
         "name": "api.IDBFactory.open",
@@ -31271,8 +31246,7 @@
           "code": "\"open\" in IDBFactory.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex",
@@ -31280,7 +31254,7 @@
           "code": "\"IDBIndex\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBIndex.count",
@@ -31288,8 +31262,7 @@
           "code": "\"count\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.get",
@@ -31297,8 +31270,7 @@
           "code": "\"get\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.getAll",
@@ -31306,8 +31278,7 @@
           "code": "\"getAll\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.getAllKeys",
@@ -31315,8 +31286,7 @@
           "code": "\"getAllKeys\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.getKey",
@@ -31324,8 +31294,7 @@
           "code": "\"getKey\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.keyPath",
@@ -31333,8 +31302,7 @@
           "code": "\"keyPath\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.multiEntry",
@@ -31342,8 +31310,7 @@
           "code": "\"multiEntry\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.name",
@@ -31351,8 +31318,7 @@
           "code": "\"name\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.objectStore",
@@ -31360,8 +31326,7 @@
           "code": "\"objectStore\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.openCursor",
@@ -31369,8 +31334,7 @@
           "code": "\"openCursor\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.openKeyCursor",
@@ -31378,8 +31342,7 @@
           "code": "\"openKeyCursor\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.unique",
@@ -31387,8 +31350,7 @@
           "code": "\"unique\" in IDBIndex.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange",
@@ -31396,7 +31358,7 @@
           "code": "\"IDBKeyRange\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.bound",
@@ -31404,8 +31366,7 @@
           "code": "\"bound\" in IDBKeyRange",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.includes",
@@ -31413,8 +31374,7 @@
           "code": "\"includes\" in IDBKeyRange.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.lower",
@@ -31422,8 +31382,7 @@
           "code": "\"lower\" in IDBKeyRange.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.lowerBound",
@@ -31431,8 +31390,7 @@
           "code": "\"lowerBound\" in IDBKeyRange",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.lowerOpen",
@@ -31440,8 +31398,7 @@
           "code": "\"lowerOpen\" in IDBKeyRange.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.only",
@@ -31449,8 +31406,7 @@
           "code": "\"only\" in IDBKeyRange",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.upper",
@@ -31458,8 +31414,7 @@
           "code": "\"upper\" in IDBKeyRange.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.upperBound",
@@ -31467,8 +31422,7 @@
           "code": "\"upperBound\" in IDBKeyRange",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.upperOpen",
@@ -31476,8 +31430,7 @@
           "code": "\"upperOpen\" in IDBKeyRange.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore",
@@ -31485,7 +31438,7 @@
           "code": "\"IDBObjectStore\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.add",
@@ -31493,8 +31446,7 @@
           "code": "\"add\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.autoIncrement",
@@ -31502,8 +31454,7 @@
           "code": "\"autoIncrement\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.clear",
@@ -31511,8 +31462,7 @@
           "code": "\"clear\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.count",
@@ -31520,8 +31470,7 @@
           "code": "\"count\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.createIndex",
@@ -31529,8 +31478,7 @@
           "code": "\"createIndex\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.delete",
@@ -31538,8 +31486,7 @@
           "code": "\"delete\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.deleteIndex",
@@ -31547,8 +31494,7 @@
           "code": "\"deleteIndex\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.get",
@@ -31556,8 +31502,7 @@
           "code": "\"get\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.getAll",
@@ -31565,8 +31510,7 @@
           "code": "\"getAll\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.getAllKeys",
@@ -31574,8 +31518,7 @@
           "code": "\"getAllKeys\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.getKey",
@@ -31583,8 +31526,7 @@
           "code": "\"getKey\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.index",
@@ -31592,8 +31534,7 @@
           "code": "\"index\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.indexNames",
@@ -31601,8 +31542,7 @@
           "code": "\"indexNames\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.keyPath",
@@ -31610,8 +31550,7 @@
           "code": "\"keyPath\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.name",
@@ -31619,8 +31558,7 @@
           "code": "\"name\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.openCursor",
@@ -31628,8 +31566,7 @@
           "code": "\"openCursor\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.openKeyCursor",
@@ -31637,8 +31574,7 @@
           "code": "\"openKeyCursor\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.put",
@@ -31646,8 +31582,7 @@
           "code": "\"put\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.transaction",
@@ -31655,8 +31590,7 @@
           "code": "\"transaction\" in IDBObjectStore.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBOpenDBRequest",
@@ -31664,7 +31598,7 @@
           "code": "\"IDBOpenDBRequest\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBOpenDBRequest.onblocked",
@@ -31672,8 +31606,7 @@
           "code": "\"onblocked\" in IDBOpenDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBOpenDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBOpenDBRequest.onupgradeneeded",
@@ -31681,8 +31614,7 @@
           "code": "\"onupgradeneeded\" in IDBOpenDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBOpenDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest",
@@ -31690,7 +31622,7 @@
           "code": "\"IDBRequest\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBRequest.error",
@@ -31698,8 +31630,7 @@
           "code": "\"error\" in IDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.onerror",
@@ -31707,8 +31638,7 @@
           "code": "\"onerror\" in IDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.onsuccess",
@@ -31716,8 +31646,7 @@
           "code": "\"onsuccess\" in IDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.readyState",
@@ -31725,8 +31654,7 @@
           "code": "\"readyState\" in IDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.result",
@@ -31734,8 +31662,7 @@
           "code": "\"result\" in IDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.source",
@@ -31743,8 +31670,7 @@
           "code": "\"source\" in IDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.transaction",
@@ -31752,8 +31678,7 @@
           "code": "\"transaction\" in IDBRequest.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction",
@@ -31761,7 +31686,7 @@
           "code": "\"IDBTransaction\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBTransaction.abort",
@@ -31769,8 +31694,7 @@
           "code": "\"abort\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": true
       },
       {
         "name": "api.IDBTransaction.commit",
@@ -31778,8 +31702,7 @@
           "code": "\"commit\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.db",
@@ -31787,8 +31710,7 @@
           "code": "\"db\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.durability",
@@ -31796,8 +31718,7 @@
           "code": "\"durability\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.error",
@@ -31805,8 +31726,7 @@
           "code": "\"error\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.mode",
@@ -31814,8 +31734,7 @@
           "code": "\"mode\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.objectStore",
@@ -31823,8 +31742,7 @@
           "code": "\"objectStore\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": true
       },
       {
         "name": "api.IDBTransaction.objectStoreNames",
@@ -31832,8 +31750,7 @@
           "code": "\"objectStoreNames\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.onabort",
@@ -31841,8 +31758,7 @@
           "code": "\"onabort\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.oncomplete",
@@ -31850,8 +31766,7 @@
           "code": "\"oncomplete\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.onerror",
@@ -31859,8 +31774,7 @@
           "code": "\"onerror\" in IDBTransaction.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent",
@@ -31868,7 +31782,7 @@
           "code": "\"IDBVersionChangeEvent\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBVersionChangeEvent.dataLoss",
@@ -31876,8 +31790,7 @@
           "code": "\"dataLoss\" in IDBVersionChangeEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent.dataLossMessage",
@@ -31885,8 +31798,7 @@
           "code": "\"dataLossMessage\" in IDBVersionChangeEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent.IDBVersionChangeEvent",
@@ -31894,8 +31806,8 @@
           "code": "bcd.testConstructor(\"IDBVersionChangeEvent\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false,
+        "message": "threw TypeError: Illegal constructor"
       },
       {
         "name": "api.IDBVersionChangeEvent.newVersion",
@@ -31903,8 +31815,7 @@
           "code": "\"newVersion\" in IDBVersionChangeEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent.oldVersion",
@@ -31912,8 +31823,7 @@
           "code": "\"oldVersion\" in IDBVersionChangeEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.IdleDeadline",
@@ -32631,8 +32541,8 @@
           "code": "bcd.testConstructor(\"KeyboardEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.KeyboardEvent.keyCode",
@@ -34582,7 +34492,7 @@
           "exposure": "Window"
         },
         "result": null,
-        "message": "threw Error: INVALID_STATE_ERR: DOM Exception 11"
+        "message": "threw Error: InvalidStateError: DOM Exception 11"
       },
       {
         "name": "api.MediaElementAudioSourceNode.MediaElementAudioSourceNode",
@@ -35723,8 +35633,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createMediaStreamDestination();\n  return !!instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createMediaStreamDestination'"
+        "result": true
       },
       {
         "name": "api.MediaStreamAudioDestinationNode.MediaStreamAudioDestinationNode",
@@ -35741,8 +35650,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createMediaStreamDestination();\n  return 'stream' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createMediaStreamDestination'"
+        "result": true
       },
       {
         "name": "api.MediaStreamAudioSourceNode",
@@ -36132,8 +36040,8 @@
           "code": "bcd.testConstructor(\"MessageEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MessageEvent.origin",
@@ -36840,8 +36748,8 @@
           "code": "bcd.testConstructor(\"MouseEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MouseEvent.movementX",
@@ -37049,7 +36957,7 @@
           "code": "\"MutationObserver\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.MutationObserver.disconnect",
@@ -37057,8 +36965,7 @@
           "code": "\"disconnect\" in MutationObserver.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: MutationObserver is not defined"
+        "result": true
       },
       {
         "name": "api.MutationObserver.MutationObserver",
@@ -37066,8 +36973,8 @@
           "code": "bcd.testConstructor(\"MutationObserver\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: MutationObserver is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MutationObserver.observe",
@@ -37075,8 +36982,7 @@
           "code": "\"observe\" in MutationObserver.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: MutationObserver is not defined"
+        "result": true
       },
       {
         "name": "api.MutationObserver.takeRecords",
@@ -37084,8 +36990,7 @@
           "code": "\"takeRecords\" in MutationObserver.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: MutationObserver is not defined"
+        "result": true
       },
       {
         "name": "api.MutationRecord",
@@ -38004,7 +37909,7 @@
           "code": "(function () {\n  var instance = window.navigator;\n  return 'webkitGetUserMedia' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Navigator.xr",
@@ -38409,7 +38314,7 @@
           "code": "\"contains\" in Node.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Node.DOCUMENT_FRAGMENT_NODE",
@@ -38921,7 +38826,7 @@
           "code": "\"Notification\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Notification.actions",
@@ -38929,8 +38834,7 @@
           "code": "\"actions\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.badge",
@@ -38938,8 +38842,7 @@
           "code": "\"badge\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.body",
@@ -38947,8 +38850,7 @@
           "code": "\"body\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.close",
@@ -38956,8 +38858,7 @@
           "code": "\"close\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": true
       },
       {
         "name": "api.Notification.data",
@@ -38965,8 +38866,7 @@
           "code": "\"data\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.dir",
@@ -38974,8 +38874,7 @@
           "code": "\"dir\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.icon",
@@ -38983,8 +38882,7 @@
           "code": "\"icon\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.image",
@@ -38992,8 +38890,7 @@
           "code": "\"image\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.lang",
@@ -39001,8 +38898,7 @@
           "code": "\"lang\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.maxActions",
@@ -39010,8 +38906,7 @@
           "code": "\"maxActions\" in Notification",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.Notification",
@@ -39019,8 +38914,8 @@
           "code": "bcd.testConstructor(\"Notification\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.Notification.onclick",
@@ -39028,8 +38923,7 @@
           "code": "\"onclick\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.onclose",
@@ -39037,8 +38931,7 @@
           "code": "\"onclose\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.onerror",
@@ -39046,8 +38939,7 @@
           "code": "\"onerror\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.onshow",
@@ -39055,8 +38947,7 @@
           "code": "\"onshow\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.permission",
@@ -39064,8 +38955,7 @@
           "code": "\"permission\" in Notification",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.renotify",
@@ -39073,8 +38963,7 @@
           "code": "\"renotify\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.requestPermission",
@@ -39082,8 +38971,7 @@
           "code": "\"requestPermission\" in Notification",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": true
       },
       {
         "name": "api.Notification.requireInteraction",
@@ -39091,8 +38979,7 @@
           "code": "\"requireInteraction\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.silent",
@@ -39100,8 +38987,7 @@
           "code": "\"silent\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.tag",
@@ -39109,8 +38995,7 @@
           "code": "\"tag\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.timestamp",
@@ -39118,8 +39003,7 @@
           "code": "\"timestamp\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.title",
@@ -39127,8 +39011,7 @@
           "code": "\"title\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.Notification.vibrate",
@@ -39136,8 +39019,7 @@
           "code": "\"vibrate\" in Notification.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Notification is not defined"
+        "result": false
       },
       {
         "name": "api.OfflineAudioCompletionEvent",
@@ -39877,8 +39759,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return !!instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.CUSTOM",
@@ -39886,8 +39767,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'CUSTOM' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.detune",
@@ -39895,8 +39775,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'detune' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.frequency",
@@ -39904,8 +39783,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'frequency' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.noteOff",
@@ -39913,8 +39791,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'noteOff' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.noteOn",
@@ -39922,8 +39799,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'noteOn' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.onended",
@@ -39931,8 +39807,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'onended' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.OscillatorNode",
@@ -39949,8 +39824,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'SAWTOOTH' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.setPeriodicWave",
@@ -39958,8 +39832,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'setPeriodicWave' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": false
       },
       {
         "name": "api.OscillatorNode.SINE",
@@ -39967,8 +39840,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'SINE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.SQUARE",
@@ -39976,8 +39848,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'SQUARE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.start",
@@ -39985,8 +39856,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'start' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.stop",
@@ -39994,8 +39864,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'stop' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.TRIANGLE",
@@ -40003,8 +39872,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'TRIANGLE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OscillatorNode.type",
@@ -40012,8 +39880,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createOscillator();\n  return 'type' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw TypeError: Object #<AudioContext> has no method 'createOscillator'"
+        "result": true
       },
       {
         "name": "api.OTPCredential",
@@ -40046,8 +39913,8 @@
           "code": "bcd.testConstructor(\"PageTransitionEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.PageTransitionEvent.persisted",
@@ -40111,7 +39978,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createPanner();\n  return 'EXPONENTIAL_DISTANCE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.PannerNode.HRTF",
@@ -40127,7 +39994,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createPanner();\n  return 'INVERSE_DISTANCE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.PannerNode.LINEAR_DISTANCE",
@@ -40135,7 +40002,7 @@
           "code": "(function () {\n  if (!reusableInstances.audioContext) {\n    return false;\n  }\n  var instance = reusableInstances.audioContext.createPanner();\n  return 'LINEAR_DISTANCE' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.PannerNode.maxDistance",
@@ -42637,8 +42504,8 @@
           "code": "bcd.testConstructor(\"PopStateEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.PopStateEvent.state",
@@ -43123,8 +42990,8 @@
           "code": "bcd.testConstructor(\"ProgressEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.ProgressEvent.total",
@@ -45590,7 +45457,7 @@
           "code": "\"RTCIceCandidate\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.RTCIceCandidate.address",
@@ -45598,8 +45465,7 @@
           "code": "\"address\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.candidate",
@@ -45607,8 +45473,7 @@
           "code": "\"candidate\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.component",
@@ -45616,8 +45481,7 @@
           "code": "\"component\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.foundation",
@@ -45625,8 +45489,7 @@
           "code": "\"foundation\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.port",
@@ -45634,8 +45497,7 @@
           "code": "\"port\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.priority",
@@ -45643,8 +45505,7 @@
           "code": "\"priority\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.protocol",
@@ -45652,8 +45513,7 @@
           "code": "\"protocol\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.relatedAddress",
@@ -45661,8 +45521,7 @@
           "code": "\"relatedAddress\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.relatedPort",
@@ -45670,8 +45529,7 @@
           "code": "\"relatedPort\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.RTCIceCandidate",
@@ -45679,8 +45537,8 @@
           "code": "bcd.testConstructor(\"RTCIceCandidate\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.RTCIceCandidate.sdpMid",
@@ -45688,8 +45546,7 @@
           "code": "\"sdpMid\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.sdpMLineIndex",
@@ -45697,8 +45554,7 @@
           "code": "\"sdpMLineIndex\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.tcpType",
@@ -45706,8 +45562,7 @@
           "code": "\"tcpType\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.toJSON",
@@ -45715,8 +45570,7 @@
           "code": "\"toJSON\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.type",
@@ -45724,8 +45578,7 @@
           "code": "\"type\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceCandidate.usernameFragment",
@@ -45733,8 +45586,7 @@
           "code": "\"usernameFragment\" in RTCIceCandidate.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCIceCandidate is not defined"
+        "result": false
       },
       {
         "name": "api.RTCIceTransport",
@@ -46831,7 +46683,7 @@
           "code": "\"RTCSessionDescription\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.RTCSessionDescription.RTCSessionDescription",
@@ -46839,8 +46691,8 @@
           "code": "bcd.testConstructor(\"RTCSessionDescription\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCSessionDescription is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.RTCSessionDescription.sdp",
@@ -46848,8 +46700,7 @@
           "code": "\"sdp\" in RTCSessionDescription.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCSessionDescription is not defined"
+        "result": false
       },
       {
         "name": "api.RTCSessionDescription.toJSON",
@@ -46857,8 +46708,7 @@
           "code": "\"toJSON\" in RTCSessionDescription.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCSessionDescription is not defined"
+        "result": false
       },
       {
         "name": "api.RTCSessionDescription.type",
@@ -46866,8 +46716,7 @@
           "code": "\"type\" in RTCSessionDescription.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: RTCSessionDescription is not defined"
+        "result": false
       },
       {
         "name": "api.RTCStatsReport",
@@ -47434,7 +47283,7 @@
           "code": "\"Selection\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Selection.addRange",
@@ -47442,8 +47291,7 @@
           "code": "\"addRange\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.anchorNode",
@@ -47451,8 +47299,7 @@
           "code": "\"anchorNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.anchorOffset",
@@ -47460,8 +47307,7 @@
           "code": "\"anchorOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.baseNode",
@@ -47469,8 +47315,7 @@
           "code": "\"baseNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.baseOffset",
@@ -47478,8 +47323,7 @@
           "code": "\"baseOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.collapse",
@@ -47487,8 +47331,7 @@
           "code": "\"collapse\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.collapseToEnd",
@@ -47496,8 +47339,7 @@
           "code": "\"collapseToEnd\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.collapseToStart",
@@ -47505,8 +47347,7 @@
           "code": "\"collapseToStart\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.containsNode",
@@ -47514,8 +47355,7 @@
           "code": "\"containsNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.deleteFromDocument",
@@ -47523,8 +47363,7 @@
           "code": "\"deleteFromDocument\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.empty",
@@ -47532,8 +47371,7 @@
           "code": "\"empty\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.extend",
@@ -47541,8 +47379,7 @@
           "code": "\"extend\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.extentNode",
@@ -47550,8 +47387,7 @@
           "code": "\"extentNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.extentOffset",
@@ -47559,8 +47395,7 @@
           "code": "\"extentOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.focusNode",
@@ -47568,8 +47403,7 @@
           "code": "\"focusNode\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.focusOffset",
@@ -47577,8 +47411,7 @@
           "code": "\"focusOffset\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.getRangeAt",
@@ -47586,8 +47419,7 @@
           "code": "\"getRangeAt\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.isCollapsed",
@@ -47595,8 +47427,7 @@
           "code": "\"isCollapsed\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.modify",
@@ -47604,8 +47435,7 @@
           "code": "\"modify\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.rangeCount",
@@ -47613,8 +47443,7 @@
           "code": "\"rangeCount\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.removeAllRanges",
@@ -47622,8 +47451,7 @@
           "code": "\"removeAllRanges\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.removeRange",
@@ -47631,8 +47459,7 @@
           "code": "\"removeRange\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.Selection.selectAllChildren",
@@ -47640,8 +47467,7 @@
           "code": "\"selectAllChildren\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.setBaseAndExtent",
@@ -47649,8 +47475,7 @@
           "code": "\"setBaseAndExtent\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.setPosition",
@@ -47658,8 +47483,7 @@
           "code": "\"setPosition\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.toString",
@@ -47667,8 +47491,7 @@
           "code": "\"toString\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": true
       },
       {
         "name": "api.Selection.type",
@@ -47676,8 +47499,7 @@
           "code": "\"type\" in Selection.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: Selection is not defined"
+        "result": false
       },
       {
         "name": "api.SendStream",
@@ -49622,8 +49444,8 @@
           "code": "bcd.testConstructor(\"StorageEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.StorageEvent.url",
@@ -57339,7 +57161,7 @@
           "code": "\"TextTrack\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.TextTrack.activeCues",
@@ -57347,8 +57169,7 @@
           "code": "\"activeCues\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.addCue",
@@ -57356,8 +57177,7 @@
           "code": "\"addCue\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": true
       },
       {
         "name": "api.TextTrack.cues",
@@ -57365,8 +57185,7 @@
           "code": "\"cues\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.id",
@@ -57374,8 +57193,7 @@
           "code": "\"id\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.inBandMetadataTrackDispatchType",
@@ -57383,8 +57201,7 @@
           "code": "\"inBandMetadataTrackDispatchType\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.kind",
@@ -57392,8 +57209,7 @@
           "code": "\"kind\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.label",
@@ -57401,8 +57217,7 @@
           "code": "\"label\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.language",
@@ -57410,8 +57225,7 @@
           "code": "\"language\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.mode",
@@ -57419,8 +57233,7 @@
           "code": "\"mode\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.oncuechange",
@@ -57428,8 +57241,7 @@
           "code": "\"oncuechange\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrack.removeCue",
@@ -57437,8 +57249,7 @@
           "code": "\"removeCue\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": true
       },
       {
         "name": "api.TextTrack.sourceBuffer",
@@ -57446,8 +57257,7 @@
           "code": "\"sourceBuffer\" in TextTrack.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrack is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCue",
@@ -57455,7 +57265,7 @@
           "code": "\"TextTrackCue\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.TextTrackCue.endTime",
@@ -57463,8 +57273,7 @@
           "code": "\"endTime\" in TextTrackCue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCue is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCue.id",
@@ -57472,8 +57281,7 @@
           "code": "\"id\" in TextTrackCue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCue is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCue.onenter",
@@ -57481,8 +57289,7 @@
           "code": "\"onenter\" in TextTrackCue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCue is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCue.onexit",
@@ -57490,8 +57297,7 @@
           "code": "\"onexit\" in TextTrackCue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCue is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCue.pauseOnExit",
@@ -57499,8 +57305,7 @@
           "code": "\"pauseOnExit\" in TextTrackCue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCue is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCue.startTime",
@@ -57508,8 +57313,7 @@
           "code": "\"startTime\" in TextTrackCue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCue is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCue.track",
@@ -57517,8 +57321,7 @@
           "code": "\"track\" in TextTrackCue.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCue is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackCueList",
@@ -57526,7 +57329,7 @@
           "code": "\"TextTrackCueList\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.TextTrackCueList.getCueById",
@@ -57534,8 +57337,7 @@
           "code": "\"getCueById\" in TextTrackCueList.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCueList is not defined"
+        "result": true
       },
       {
         "name": "api.TextTrackCueList.length",
@@ -57543,8 +57345,7 @@
           "code": "\"length\" in TextTrackCueList.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackCueList is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackList",
@@ -57552,7 +57353,7 @@
           "code": "\"TextTrackList\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.TextTrackList.getTrackById",
@@ -57560,8 +57361,7 @@
           "code": "\"getTrackById\" in TextTrackList.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackList is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackList.length",
@@ -57569,8 +57369,7 @@
           "code": "\"length\" in TextTrackList.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackList is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackList.onaddtrack",
@@ -57578,8 +57377,7 @@
           "code": "\"onaddtrack\" in TextTrackList.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackList is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackList.onchange",
@@ -57587,8 +57385,7 @@
           "code": "\"onchange\" in TextTrackList.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackList is not defined"
+        "result": false
       },
       {
         "name": "api.TextTrackList.onremovetrack",
@@ -57596,8 +57393,7 @@
           "code": "\"onremovetrack\" in TextTrackList.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TextTrackList is not defined"
+        "result": false
       },
       {
         "name": "api.TimeEvent",
@@ -57824,7 +57620,7 @@
           "code": "\"TouchEvent\" in self",
           "exposure": "Window"
         },
-        "result": true
+        "result": false
       },
       {
         "name": "api.TouchEvent.altKey",
@@ -57832,7 +57628,8 @@
           "code": "\"altKey\" in TouchEvent.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchEvent.changedTouches",
@@ -57840,7 +57637,8 @@
           "code": "\"changedTouches\" in TouchEvent.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchEvent.ctrlKey",
@@ -57848,7 +57646,8 @@
           "code": "\"ctrlKey\" in TouchEvent.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchEvent.metaKey",
@@ -57856,7 +57655,8 @@
           "code": "\"metaKey\" in TouchEvent.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchEvent.shiftKey",
@@ -57864,7 +57664,8 @@
           "code": "\"shiftKey\" in TouchEvent.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchEvent.targetTouches",
@@ -57872,7 +57673,8 @@
           "code": "\"targetTouches\" in TouchEvent.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchEvent.touches",
@@ -57880,7 +57682,8 @@
           "code": "\"touches\" in TouchEvent.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchEvent.TouchEvent",
@@ -57888,8 +57691,8 @@
           "code": "bcd.testConstructor(\"TouchEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": null,
+        "message": "threw ReferenceError: TouchEvent is not defined"
       },
       {
         "name": "api.TouchList",
@@ -57923,7 +57726,7 @@
           "code": "\"TrackEvent\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.TrackEvent.track",
@@ -57931,8 +57734,7 @@
           "code": "\"track\" in TrackEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TrackEvent is not defined"
+        "result": false
       },
       {
         "name": "api.TrackEvent.TrackEvent",
@@ -57940,8 +57742,8 @@
           "code": "bcd.testConstructor(\"TrackEvent\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TrackEvent is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.TransformStream",
@@ -58028,7 +57830,7 @@
           "code": "\"TransitionEvent\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.TransitionEvent.elapsedTime",
@@ -58036,8 +57838,7 @@
           "code": "\"elapsedTime\" in TransitionEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TransitionEvent is not defined"
+        "result": false
       },
       {
         "name": "api.TransitionEvent.propertyName",
@@ -58045,8 +57846,7 @@
           "code": "\"propertyName\" in TransitionEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TransitionEvent is not defined"
+        "result": false
       },
       {
         "name": "api.TransitionEvent.pseudoElement",
@@ -58054,8 +57854,7 @@
           "code": "\"pseudoElement\" in TransitionEvent.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TransitionEvent is not defined"
+        "result": false
       },
       {
         "name": "api.TransitionEvent.TransitionEvent",
@@ -58063,8 +57862,8 @@
           "code": "bcd.testConstructor(\"TransitionEvent\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: TransitionEvent is not defined"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.TreeWalker",
@@ -58455,8 +58254,8 @@
           "code": "bcd.testConstructor(\"UIEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.UIEvent.view",
@@ -58675,7 +58474,7 @@
           "code": "\"URL\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.URL.createObjectURL",
@@ -58683,8 +58482,7 @@
           "code": "\"createObjectURL\" in URL",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": true
       },
       {
         "name": "api.URL.hash",
@@ -58692,8 +58490,7 @@
           "code": "\"hash\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.host",
@@ -58701,8 +58498,7 @@
           "code": "\"host\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.hostname",
@@ -58710,8 +58506,7 @@
           "code": "\"hostname\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.href",
@@ -58719,8 +58514,7 @@
           "code": "\"href\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.origin",
@@ -58728,8 +58522,7 @@
           "code": "\"origin\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.password",
@@ -58737,8 +58530,7 @@
           "code": "\"password\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.pathname",
@@ -58746,8 +58538,7 @@
           "code": "\"pathname\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.port",
@@ -58755,8 +58546,7 @@
           "code": "\"port\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.protocol",
@@ -58764,8 +58554,7 @@
           "code": "\"protocol\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.revokeObjectURL",
@@ -58773,8 +58562,7 @@
           "code": "\"revokeObjectURL\" in URL",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": true
       },
       {
         "name": "api.URL.search",
@@ -58782,8 +58570,7 @@
           "code": "\"search\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.searchParams",
@@ -58791,8 +58578,7 @@
           "code": "\"searchParams\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.toJSON",
@@ -58800,8 +58586,7 @@
           "code": "\"toJSON\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.URL",
@@ -58809,8 +58594,7 @@
           "code": "bcd.testConstructor(\"URL\");",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": true
       },
       {
         "name": "api.URL.username",
@@ -58818,8 +58602,7 @@
           "code": "\"username\" in URL.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URLSearchParams",
@@ -67718,8 +67501,8 @@
           "code": "bcd.testConstructor(\"WebGLContextEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.WebGLFramebuffer",
@@ -68255,7 +68038,7 @@
           "code": "\"compressedTexImage2D\" in WebGLRenderingContext.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLRenderingContext.compressedTexSubImage2D",
@@ -68263,7 +68046,7 @@
           "code": "\"compressedTexSubImage2D\" in WebGLRenderingContext.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLRenderingContext.CONSTANT_ALPHA",
@@ -69127,7 +68910,7 @@
           "code": "\"getShaderPrecisionFormat\" in WebGLRenderingContext.prototype",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLRenderingContext.getShaderSource",
@@ -71279,7 +71062,7 @@
           "code": "\"WebGLShaderPrecisionFormat\" in self",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WebGLShaderPrecisionFormat.precision",
@@ -71287,8 +71070,7 @@
           "code": "\"precision\" in WebGLShaderPrecisionFormat.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: WebGLShaderPrecisionFormat is not defined"
+        "result": false
       },
       {
         "name": "api.WebGLShaderPrecisionFormat.rangeMax",
@@ -71296,8 +71078,7 @@
           "code": "\"rangeMax\" in WebGLShaderPrecisionFormat.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: WebGLShaderPrecisionFormat is not defined"
+        "result": false
       },
       {
         "name": "api.WebGLShaderPrecisionFormat.rangeMin",
@@ -71305,8 +71086,7 @@
           "code": "\"rangeMin\" in WebGLShaderPrecisionFormat.prototype",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: WebGLShaderPrecisionFormat is not defined"
+        "result": false
       },
       {
         "name": "api.WebGLSync",
@@ -71499,7 +71279,7 @@
           "exposure": "Window"
         },
         "result": true,
-        "message": "threw SyntaxError: Not enough arguments"
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.WheelEvent",
@@ -71547,7 +71327,7 @@
           "code": "\"DOM_DELTA_LINE\" in WheelEvent",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WheelEvent.DOM_DELTA_PAGE",
@@ -71555,7 +71335,7 @@
           "code": "\"DOM_DELTA_PAGE\" in WheelEvent",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WheelEvent.DOM_DELTA_PIXEL",
@@ -71563,7 +71343,7 @@
           "code": "\"DOM_DELTA_PIXEL\" in WheelEvent",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.WheelEvent.wheelDelta",
@@ -71595,8 +71375,8 @@
           "code": "bcd.testConstructor(\"WheelEvent\");",
           "exposure": "Window"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.Window",
@@ -71660,7 +71440,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'cancelAnimationFrame' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.cancelIdleCallback",
@@ -71908,7 +71688,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'indexedDB' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.innerHeight",
@@ -72916,7 +72696,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'ontransitionend' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.ontransitionrun",
@@ -73188,7 +72968,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'requestAnimationFrame' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.requestFileSystem",
@@ -73476,7 +73256,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'webkitCancelAnimationFrame' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.webkitCancelRequestAnimationFrame",
@@ -73500,7 +73280,7 @@
           "code": "(function () {\n  var instance = window;\n  return 'WebKitMutationObserver' in instance;\n})();",
           "exposure": "Window"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Window.webkitRequestAnimationFrame",
@@ -76530,7 +76310,8 @@
           "code": "\"webkitMaskAttachment\" in document.body.style || CSS.supports(\"-webkit-mask-attachment\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": true
+        "result": null,
+        "message": "threw ReferenceError: CSS is not defined"
       },
       {
         "name": "css.properties.-webkit-mask-box-image",
@@ -76611,8 +76392,7 @@
           "code": "\"webkitPrintColorAdjust\" in document.body.style || CSS.supports(\"-webkit-print-color-adjust\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.-webkit-tap-highlight-color",
@@ -76620,8 +76400,7 @@
           "code": "\"webkitTapHighlightColor\" in document.body.style || CSS.supports(\"-webkit-tap-highlight-color\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.-webkit-text-combine",
@@ -77276,8 +77055,7 @@
           "code": "\"borderImage\" in document.body.style || CSS.supports(\"border-image\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-image-outset",
@@ -77285,8 +77063,7 @@
           "code": "\"borderImageOutset\" in document.body.style || CSS.supports(\"border-image-outset\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-image-repeat",
@@ -77318,8 +77095,7 @@
           "code": "\"borderImageWidth\" in document.body.style || CSS.supports(\"border-image-width\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.border-inline",
@@ -79388,8 +79164,7 @@
           "code": "\"maskType\" in document.body.style || CSS.supports(\"mask-type\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.max-block-size",
@@ -79826,8 +79601,7 @@
           "code": "\"overflowWrap\" in document.body.style || CSS.supports(\"overflow-wrap\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.overflow-x",
@@ -80988,8 +80762,7 @@
           "code": "\"tabSize\" in document.body.style || CSS.supports(\"tab-size\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.table-layout",
@@ -81311,8 +81084,7 @@
           "code": "\"transition\" in document.body.style || CSS.supports(\"transition\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.transition-delay",
@@ -81320,8 +81092,7 @@
           "code": "\"transitionDelay\" in document.body.style || CSS.supports(\"transition-delay\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.transition-duration",
@@ -81329,8 +81100,7 @@
           "code": "\"transitionDuration\" in document.body.style || CSS.supports(\"transition-duration\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.transition-property",
@@ -81338,8 +81108,7 @@
           "code": "\"transitionProperty\" in document.body.style || CSS.supports(\"transition-property\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.transition-timing-function",
@@ -81347,8 +81116,7 @@
           "code": "\"transitionTimingFunction\" in document.body.style || CSS.supports(\"transition-timing-function\", \"inherit\")",
           "exposure": "Window"
         },
-        "result": null,
-        "message": "threw ReferenceError: CSS is not defined"
+        "result": true
       },
       {
         "name": "css.properties.translate",
@@ -81948,7 +81716,7 @@
           "code": "\"Blob\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.Blob.arrayBuffer",
@@ -81956,8 +81724,7 @@
           "code": "\"arrayBuffer\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.Blob",
@@ -81965,8 +81732,7 @@
           "code": "bcd.testConstructor(\"Blob\");",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": true
       },
       {
         "name": "api.Blob.size",
@@ -81974,8 +81740,7 @@
           "code": "\"size\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.slice",
@@ -81983,8 +81748,7 @@
           "code": "\"slice\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": true
       },
       {
         "name": "api.Blob.stream",
@@ -81992,8 +81756,7 @@
           "code": "\"stream\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.text",
@@ -82001,8 +81764,7 @@
           "code": "\"text\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.Blob.type",
@@ -82010,8 +81772,7 @@
           "code": "\"type\" in Blob.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: Blob is not defined"
+        "result": false
       },
       {
         "name": "api.BroadcastChannel",
@@ -87306,7 +87067,7 @@
           "code": "\"IDBCursor\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBCursor.advance",
@@ -87314,8 +87075,7 @@
           "code": "\"advance\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursor.continue",
@@ -87323,8 +87083,7 @@
           "code": "\"continue\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursor.continuePrimaryKey",
@@ -87332,8 +87091,7 @@
           "code": "\"continuePrimaryKey\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.delete",
@@ -87341,8 +87099,7 @@
           "code": "\"delete\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursor.direction",
@@ -87350,8 +87107,7 @@
           "code": "\"direction\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.key",
@@ -87359,8 +87115,7 @@
           "code": "\"key\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.primaryKey",
@@ -87368,8 +87123,7 @@
           "code": "\"primaryKey\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.request",
@@ -87377,8 +87131,7 @@
           "code": "\"request\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.source",
@@ -87386,8 +87139,7 @@
           "code": "\"source\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": false
       },
       {
         "name": "api.IDBCursor.update",
@@ -87395,8 +87147,7 @@
           "code": "\"update\" in IDBCursor.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursor is not defined"
+        "result": true
       },
       {
         "name": "api.IDBCursorWithValue",
@@ -87404,7 +87155,7 @@
           "code": "\"IDBCursorWithValue\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBCursorWithValue.value",
@@ -87412,8 +87163,7 @@
           "code": "\"value\" in IDBCursorWithValue.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBCursorWithValue is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase",
@@ -87421,7 +87171,7 @@
           "code": "\"IDBDatabase\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBDatabase.close",
@@ -87429,8 +87179,7 @@
           "code": "\"close\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.createObjectStore",
@@ -87438,8 +87187,7 @@
           "code": "\"createObjectStore\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.deleteObjectStore",
@@ -87447,8 +87195,7 @@
           "code": "\"deleteObjectStore\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.name",
@@ -87456,8 +87203,7 @@
           "code": "\"name\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.objectStoreNames",
@@ -87465,8 +87211,7 @@
           "code": "\"objectStoreNames\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onabort",
@@ -87474,8 +87219,7 @@
           "code": "\"onabort\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onclose",
@@ -87483,8 +87227,7 @@
           "code": "\"onclose\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onerror",
@@ -87492,8 +87235,7 @@
           "code": "\"onerror\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.onversionchange",
@@ -87501,8 +87243,7 @@
           "code": "\"onversionchange\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBDatabase.transaction",
@@ -87510,8 +87251,7 @@
           "code": "\"transaction\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": true
       },
       {
         "name": "api.IDBDatabase.version",
@@ -87519,8 +87259,7 @@
           "code": "\"version\" in IDBDatabase.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBDatabase is not defined"
+        "result": false
       },
       {
         "name": "api.IDBFactory",
@@ -87528,7 +87267,7 @@
           "code": "\"IDBFactory\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBFactory.cmp",
@@ -87536,8 +87275,7 @@
           "code": "\"cmp\" in IDBFactory.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": true
       },
       {
         "name": "api.IDBFactory.databases",
@@ -87545,8 +87283,7 @@
           "code": "\"databases\" in IDBFactory.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": false
       },
       {
         "name": "api.IDBFactory.deleteDatabase",
@@ -87554,8 +87291,7 @@
           "code": "\"deleteDatabase\" in IDBFactory.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": true
       },
       {
         "name": "api.IDBFactory.open",
@@ -87563,8 +87299,7 @@
           "code": "\"open\" in IDBFactory.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBFactory is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex",
@@ -87572,7 +87307,7 @@
           "code": "\"IDBIndex\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBIndex.count",
@@ -87580,8 +87315,7 @@
           "code": "\"count\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.get",
@@ -87589,8 +87323,7 @@
           "code": "\"get\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.getAll",
@@ -87598,8 +87331,7 @@
           "code": "\"getAll\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.getAllKeys",
@@ -87607,8 +87339,7 @@
           "code": "\"getAllKeys\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.getKey",
@@ -87616,8 +87347,7 @@
           "code": "\"getKey\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.keyPath",
@@ -87625,8 +87355,7 @@
           "code": "\"keyPath\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.multiEntry",
@@ -87634,8 +87363,7 @@
           "code": "\"multiEntry\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.name",
@@ -87643,8 +87371,7 @@
           "code": "\"name\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.objectStore",
@@ -87652,8 +87379,7 @@
           "code": "\"objectStore\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBIndex.openCursor",
@@ -87661,8 +87387,7 @@
           "code": "\"openCursor\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.openKeyCursor",
@@ -87670,8 +87395,7 @@
           "code": "\"openKeyCursor\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": true
       },
       {
         "name": "api.IDBIndex.unique",
@@ -87679,8 +87403,7 @@
           "code": "\"unique\" in IDBIndex.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBIndex is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange",
@@ -87688,7 +87411,7 @@
           "code": "\"IDBKeyRange\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.bound",
@@ -87696,8 +87419,7 @@
           "code": "\"bound\" in IDBKeyRange",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.includes",
@@ -87705,8 +87427,7 @@
           "code": "\"includes\" in IDBKeyRange.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.lower",
@@ -87714,8 +87435,7 @@
           "code": "\"lower\" in IDBKeyRange.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.lowerBound",
@@ -87723,8 +87443,7 @@
           "code": "\"lowerBound\" in IDBKeyRange",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.lowerOpen",
@@ -87732,8 +87451,7 @@
           "code": "\"lowerOpen\" in IDBKeyRange.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.only",
@@ -87741,8 +87459,7 @@
           "code": "\"only\" in IDBKeyRange",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.upper",
@@ -87750,8 +87467,7 @@
           "code": "\"upper\" in IDBKeyRange.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBKeyRange.upperBound",
@@ -87759,8 +87475,7 @@
           "code": "\"upperBound\" in IDBKeyRange",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": true
       },
       {
         "name": "api.IDBKeyRange.upperOpen",
@@ -87768,8 +87483,7 @@
           "code": "\"upperOpen\" in IDBKeyRange.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBKeyRange is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore",
@@ -87777,7 +87491,7 @@
           "code": "\"IDBObjectStore\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.add",
@@ -87785,8 +87499,7 @@
           "code": "\"add\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.autoIncrement",
@@ -87794,8 +87507,7 @@
           "code": "\"autoIncrement\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.clear",
@@ -87803,8 +87515,7 @@
           "code": "\"clear\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.count",
@@ -87812,8 +87523,7 @@
           "code": "\"count\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.createIndex",
@@ -87821,8 +87531,7 @@
           "code": "\"createIndex\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.delete",
@@ -87830,8 +87539,7 @@
           "code": "\"delete\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.deleteIndex",
@@ -87839,8 +87547,7 @@
           "code": "\"deleteIndex\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.get",
@@ -87848,8 +87555,7 @@
           "code": "\"get\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.getAll",
@@ -87857,8 +87563,7 @@
           "code": "\"getAll\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.getAllKeys",
@@ -87866,8 +87571,7 @@
           "code": "\"getAllKeys\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.getKey",
@@ -87875,8 +87579,7 @@
           "code": "\"getKey\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.index",
@@ -87884,8 +87587,7 @@
           "code": "\"index\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.indexNames",
@@ -87893,8 +87595,7 @@
           "code": "\"indexNames\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.keyPath",
@@ -87902,8 +87603,7 @@
           "code": "\"keyPath\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.name",
@@ -87911,8 +87611,7 @@
           "code": "\"name\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.openCursor",
@@ -87920,8 +87619,7 @@
           "code": "\"openCursor\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.openKeyCursor",
@@ -87929,8 +87627,7 @@
           "code": "\"openKeyCursor\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBObjectStore.put",
@@ -87938,8 +87635,7 @@
           "code": "\"put\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": true
       },
       {
         "name": "api.IDBObjectStore.transaction",
@@ -87947,8 +87643,7 @@
           "code": "\"transaction\" in IDBObjectStore.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBObjectStore is not defined"
+        "result": false
       },
       {
         "name": "api.IDBOpenDBRequest",
@@ -87956,7 +87651,7 @@
           "code": "\"IDBOpenDBRequest\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBOpenDBRequest.onblocked",
@@ -87964,8 +87659,7 @@
           "code": "\"onblocked\" in IDBOpenDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBOpenDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBOpenDBRequest.onupgradeneeded",
@@ -87973,8 +87667,7 @@
           "code": "\"onupgradeneeded\" in IDBOpenDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBOpenDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest",
@@ -87982,7 +87675,7 @@
           "code": "\"IDBRequest\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBRequest.error",
@@ -87990,8 +87683,7 @@
           "code": "\"error\" in IDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.onerror",
@@ -87999,8 +87691,7 @@
           "code": "\"onerror\" in IDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.onsuccess",
@@ -88008,8 +87699,7 @@
           "code": "\"onsuccess\" in IDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.readyState",
@@ -88017,8 +87707,7 @@
           "code": "\"readyState\" in IDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.result",
@@ -88026,8 +87715,7 @@
           "code": "\"result\" in IDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.source",
@@ -88035,8 +87723,7 @@
           "code": "\"source\" in IDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBRequest.transaction",
@@ -88044,8 +87731,7 @@
           "code": "\"transaction\" in IDBRequest.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBRequest is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction",
@@ -88053,7 +87739,7 @@
           "code": "\"IDBTransaction\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBTransaction.abort",
@@ -88061,8 +87747,7 @@
           "code": "\"abort\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": true
       },
       {
         "name": "api.IDBTransaction.commit",
@@ -88070,8 +87755,7 @@
           "code": "\"commit\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.db",
@@ -88079,8 +87763,7 @@
           "code": "\"db\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.durability",
@@ -88088,8 +87771,7 @@
           "code": "\"durability\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.error",
@@ -88097,8 +87779,7 @@
           "code": "\"error\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.mode",
@@ -88106,8 +87787,7 @@
           "code": "\"mode\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.objectStore",
@@ -88115,8 +87795,7 @@
           "code": "\"objectStore\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": true
       },
       {
         "name": "api.IDBTransaction.objectStoreNames",
@@ -88124,8 +87803,7 @@
           "code": "\"objectStoreNames\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.onabort",
@@ -88133,8 +87811,7 @@
           "code": "\"onabort\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.oncomplete",
@@ -88142,8 +87819,7 @@
           "code": "\"oncomplete\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBTransaction.onerror",
@@ -88151,8 +87827,7 @@
           "code": "\"onerror\" in IDBTransaction.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBTransaction is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent",
@@ -88160,7 +87835,7 @@
           "code": "\"IDBVersionChangeEvent\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.IDBVersionChangeEvent.dataLoss",
@@ -88168,8 +87843,7 @@
           "code": "\"dataLoss\" in IDBVersionChangeEvent.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent.dataLossMessage",
@@ -88177,8 +87851,7 @@
           "code": "\"dataLossMessage\" in IDBVersionChangeEvent.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent.IDBVersionChangeEvent",
@@ -88186,8 +87859,8 @@
           "code": "bcd.testConstructor(\"IDBVersionChangeEvent\");",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false,
+        "message": "threw TypeError: Illegal constructor"
       },
       {
         "name": "api.IDBVersionChangeEvent.newVersion",
@@ -88195,8 +87868,7 @@
           "code": "\"newVersion\" in IDBVersionChangeEvent.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.IDBVersionChangeEvent.oldVersion",
@@ -88204,8 +87876,7 @@
           "code": "\"oldVersion\" in IDBVersionChangeEvent.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: IDBVersionChangeEvent is not defined"
+        "result": false
       },
       {
         "name": "api.ImageBitmap",
@@ -88522,8 +88193,8 @@
           "code": "bcd.testConstructor(\"MessageEvent\");",
           "exposure": "Worker"
         },
-        "result": false,
-        "message": "threw TypeError: Illegal constructor"
+        "result": true,
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.MessageEvent.origin",
@@ -92898,7 +92569,7 @@
           "code": "\"URL\" in self",
           "exposure": "Worker"
         },
-        "result": false
+        "result": true
       },
       {
         "name": "api.URL.createObjectURL",
@@ -92906,8 +92577,7 @@
           "code": "\"createObjectURL\" in URL",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": true
       },
       {
         "name": "api.URL.hash",
@@ -92915,8 +92585,7 @@
           "code": "\"hash\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.host",
@@ -92924,8 +92593,7 @@
           "code": "\"host\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.hostname",
@@ -92933,8 +92601,7 @@
           "code": "\"hostname\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.href",
@@ -92942,8 +92609,7 @@
           "code": "\"href\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.origin",
@@ -92951,8 +92617,7 @@
           "code": "\"origin\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.password",
@@ -92960,8 +92625,7 @@
           "code": "\"password\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.pathname",
@@ -92969,8 +92633,7 @@
           "code": "\"pathname\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.port",
@@ -92978,8 +92641,7 @@
           "code": "\"port\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.protocol",
@@ -92987,8 +92649,7 @@
           "code": "\"protocol\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.revokeObjectURL",
@@ -92996,8 +92657,7 @@
           "code": "\"revokeObjectURL\" in URL",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": true
       },
       {
         "name": "api.URL.search",
@@ -93005,8 +92665,7 @@
           "code": "\"search\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.searchParams",
@@ -93014,8 +92673,7 @@
           "code": "\"searchParams\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.toJSON",
@@ -93023,8 +92681,7 @@
           "code": "\"toJSON\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URL.URL",
@@ -93032,8 +92689,7 @@
           "code": "bcd.testConstructor(\"URL\");",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": true
       },
       {
         "name": "api.URL.username",
@@ -93041,8 +92697,7 @@
           "code": "\"username\" in URL.prototype",
           "exposure": "Worker"
         },
-        "result": null,
-        "message": "threw ReferenceError: URL is not defined"
+        "result": false
       },
       {
         "name": "api.URLSearchParams",
@@ -104596,7 +104251,7 @@
           "exposure": "Worker"
         },
         "result": true,
-        "message": "threw SyntaxError: Not enough arguments"
+        "message": "threw TypeError: Not enough arguments"
       },
       {
         "name": "api.WorkerGlobalScope",
@@ -107820,5 +107475,5 @@
       }
     ]
   },
-  "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2"
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36"
 }
