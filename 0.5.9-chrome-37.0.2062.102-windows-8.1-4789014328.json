@@ -1,0 +1,211 @@
+{
+  "__version": "0.5.9",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/api/HTMLTableCellElement": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  if (\n    !instance.constructor.name &&\n    Object.prototype.toString.call(instance) === '[object Object]'\n  ) {\n    return { result: null, message: 'Detection methods unsupported' };\n  }\n  if (\n    instance.constructor.name !== 'HTMLTableCellElement' &&\n    Object.prototype.toString.call(instance) !== '[object HTMLTableCellElement]'\n  ) {\n    return false;\n  }\n  return !!instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'abbr' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.abbr",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'align' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.align",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'axis' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.axis",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'bgColor' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.bgColor",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'cellIndex' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.cellIndex",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'ch' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.ch",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'chOff' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.chOff",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'colSpan' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.colSpan",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'headers' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.headers",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'height' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.height",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "bcd.testConstructor(\"HTMLTableCellElement\");",
+          "exposure": "Window"
+        },
+        "message": "threw TypeError: Illegal constructor",
+        "name": "api.HTMLTableCellElement.HTMLTableCellElement",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'noWrap' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.noWrap",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'rowSpan' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.rowSpan",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'scope' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.scope",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'vAlign' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.vAlign",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('td');\n  return 'width' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLTableCellElement.width",
+        "result": true
+      }
+    ],
+    "http://mdn-bcd-collector.appspot.com/tests/api/SVGUseElement": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  if (\n    !instance.constructor.name &&\n    Object.prototype.toString.call(instance) === '[object Object]'\n  ) {\n    return { result: null, message: 'Detection methods unsupported' };\n  }\n  if (\n    instance.constructor.name !== 'SVGUseElement' &&\n    Object.prototype.toString.call(instance) !== '[object SVGUseElement]'\n  ) {\n    return false;\n  }\n  return !!instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  return 'animatedInstanceRoot' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement.animatedInstanceRoot",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  return 'height' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement.height",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  return 'href' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement.href",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  return 'instanceRoot' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement.instanceRoot",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  return 'width' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement.width",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  return 'x' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement.x",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElementNS('http://www.w3.org/2000/svg', 'use');\n  return 'y' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.SVGUseElement.y",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.102 Safari/537.36"
+}
