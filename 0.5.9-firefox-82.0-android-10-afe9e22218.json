@@ -1,0 +1,233 @@
+{
+  "__version": "0.5.9",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/api/HTMLObjectElement": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  if (\n    !instance.constructor.name &&\n    Object.prototype.toString.call(instance) === '[object Object]'\n  ) {\n    return { result: null, message: 'Detection methods unsupported' };\n  }\n  if (\n    instance.constructor.name !== 'HTMLObjectElement' &&\n    Object.prototype.toString.call(instance) !== '[object HTMLObjectElement]'\n  ) {\n    return false;\n  }\n  return !!instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'align' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.align",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'archive' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.archive",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'border' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.border",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'checkValidity' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.checkValidity",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'code' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.code",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'codeBase' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.codeBase",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'codeType' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.codeType",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'contentDocument' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.contentDocument",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'contentWindow' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.contentWindow",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'data' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.data",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'declare' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.declare",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'form' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.form",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'getSVGDocument' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.getSVGDocument",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'height' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.height",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'hspace' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.hspace",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "bcd.testConstructor(\"HTMLObjectElement\");",
+          "exposure": "Window"
+        },
+        "message": "threw TypeError: Illegal constructor.",
+        "name": "api.HTMLObjectElement.HTMLObjectElement",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'name' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.name",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'reportValidity' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.reportValidity",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'setCustomValidity' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.setCustomValidity",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'standby' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.standby",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'type' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.type",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'useMap' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.useMap",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'validationMessage' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.validationMessage",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'validity' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.validity",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'vspace' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.vspace",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'width' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.width",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('object');\n  return 'willValidate' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLObjectElement.willValidate",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Android 10; Mobile; rv:82.0) Gecko/82.0 Firefox/82.0"
+}
