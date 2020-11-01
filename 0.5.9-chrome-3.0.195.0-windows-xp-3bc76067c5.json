@@ -1,0 +1,2306 @@
+{
+  "__version": "0.5.9",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/?exposure=ServiceWorker": [
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.AbortPaymentEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.AbortPaymentEvent.AbortPaymentEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.AbortPaymentEvent.respondWith",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.BackgroundFetchEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.BackgroundFetchEvent.BackgroundFetchEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.BackgroundFetchEvent.registration",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.BackgroundFetchUpdateUIEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.BackgroundFetchUpdateUIEvent.BackgroundFetchUpdateUIEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.BackgroundFetchUpdateUIEvent.updateUI",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CanMakePaymentEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CanMakePaymentEvent.CanMakePaymentEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CanMakePaymentEvent.methodData",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CanMakePaymentEvent.modifiers",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CanMakePaymentEvent.paymentRequestOrigin",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CanMakePaymentEvent.respondWith",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CanMakePaymentEvent.topOrigin",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Client",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Client.frameType",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Client.id",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Client.lifecycleState",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Client.postMessage",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Client.type",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Client.url",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Clients",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Clients.claim",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Clients.get",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Clients.matchAll",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.Clients.openWindow",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ContentIndexEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ContentIndexEvent.ContentIndexEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ContentIndexEvent.id",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStore",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStore.delete",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStore.get",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStore.getAll",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStore.onchange",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStore.set",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStoreManager",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStoreManager.getSubscriptions",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStoreManager.subscribe",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.CookieStoreManager.unsubscribe",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableCookieChangeEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableCookieChangeEvent.changed",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableCookieChangeEvent.deleted",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableCookieChangeEvent.ExtendableCookieChangeEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableEvent.ExtendableEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableEvent.waitUntil",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableMessageEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableMessageEvent.data",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableMessageEvent.ExtendableMessageEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableMessageEvent.lastEventId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableMessageEvent.origin",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableMessageEvent.ports",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ExtendableMessageEvent.source",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.client",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.clientId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.FetchEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.handled",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.isReload",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.navigationPreload",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.preloadResponse",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.replacesClientId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.request",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.respondWith",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.resultingClientId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.FetchEvent.targetClientId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.NotificationEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.NotificationEvent.action",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.NotificationEvent.notification",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.NotificationEvent.NotificationEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.changePaymentMethod",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.changeShippingAddress",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.changeShippingOption",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.instrumentKey",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.methodData",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.modifiers",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.openWindow",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.paymentOptions",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.PaymentRequestEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.paymentRequestId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.paymentRequestOrigin",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.requestBillingAddress",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.respondWith",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.shippingOptions",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.topOrigin",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PaymentRequestEvent.total",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PeriodicSyncEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PeriodicSyncEvent.PeriodicSyncEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PeriodicSyncEvent.tag",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushEvent.data",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushEvent.PushEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushMessageData",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushMessageData.arrayBuffer",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushMessageData.blob",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushMessageData.json",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushMessageData.text",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushSubscriptionChangeEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushSubscriptionChangeEvent.newSubscription",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushSubscriptionChangeEvent.oldSubscription",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.PushSubscriptionChangeEvent.PushSubscriptionChangeEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.clients",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.cookieStore",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onabortpayment",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onactivate",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onbackgroundfetchabort",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onbackgroundfetchclick",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onbackgroundfetchfail",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onbackgroundfetchsuccess",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.oncanmakepayment",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.oncontentdelete",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.oncookiechange",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onfetch",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.oninstall",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onmessage",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onmessageerror",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onnotificationclick",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onnotificationclose",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onpaymentrequest",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onperiodicsync",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onpush",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onpushsubscriptionchange",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.onsync",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.registration",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.serviceWorker",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.ServiceWorkerGlobalScope.skipWaiting",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.SyncEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.SyncEvent.lastChance",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.SyncEvent.SyncEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.SyncEvent.tag",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.WindowClient",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.WindowClient.ancestorOrigins",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.WindowClient.focus",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.WindowClient.focused",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.WindowClient.navigate",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "ServiceWorker"
+        },
+        "message": "No service worker support",
+        "name": "api.WindowClient.visibilityState",
+        "result": false
+      }
+    ],
+    "http://mdn-bcd-collector.appspot.com/tests/?exposure=SharedWorker": [
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.FileReaderSync",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.FileReaderSync.FileReaderSync",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.FileReaderSync.readAsArrayBuffer",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.FileReaderSync.readAsBinaryString",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.FileReaderSync.readAsDataURL",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.FileReaderSync.readAsText",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.ProgressEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.ProgressEvent.lengthComputable",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.ProgressEvent.loaded",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.ProgressEvent.ProgressEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.ProgressEvent.total",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.SharedWorkerGlobalScope",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.SharedWorkerGlobalScope.close",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.SharedWorkerGlobalScope.name",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.SharedWorkerGlobalScope.onconnect",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USB",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USB.getDevices",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USB.onconnect",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USB.ondisconnect",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USB.requestDevice",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface.alternateSetting",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface.endpoints",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface.interfaceClass",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface.interfaceName",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface.interfaceProtocol",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface.interfaceSubclass",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBAlternateInterface.USBAlternateInterface",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConfiguration",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConfiguration.configurationName",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConfiguration.configurationValue",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConfiguration.interfaces",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConfiguration.USBConfiguration",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConnectionEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConnectionEvent.device",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBConnectionEvent.USBConnectionEvent",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.claimInterface",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.clearHalt",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.close",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.configuration",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.configurations",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.controlTransferIn",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.controlTransferOut",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.deviceClass",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.deviceProtocol",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.deviceSubclass",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.deviceVersionMajor",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.deviceVersionMinor",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.deviceVersionSubminor",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.isochronousTransferIn",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.isochronousTransferOut",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.manufacturerName",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.open",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.opened",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.productId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.productName",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.releaseInterface",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.reset",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.selectAlternateInterface",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.selectConfiguration",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.serialNumber",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.transferIn",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.transferOut",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.usbVersionMajor",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.usbVersionMinor",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.usbVersionSubminor",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBDevice.vendorId",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBEndpoint",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBEndpoint.direction",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBEndpoint.endpointNumber",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBEndpoint.packetSize",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBEndpoint.type",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBEndpoint.USBEndpoint",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInterface",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInterface.alternate",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInterface.alternates",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInterface.claimed",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInterface.interfaceNumber",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInterface.USBInterface",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInTransferResult.data",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInTransferResult.status",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBInTransferResult.USBInTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferPacket",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferPacket.data",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferPacket.status",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferPacket.USBIsochronousInTransferPacket",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferResult.data",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferResult.packets",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousInTransferResult.USBIsochronousInTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousOutTransferPacket",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousOutTransferPacket.bytesWritten",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousOutTransferPacket.status",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousOutTransferPacket.USBIsochronousOutTransferPacket",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousOutTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousOutTransferResult.packets",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBIsochronousOutTransferResult.USBIsochronousOutTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBOutTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBOutTransferResult.bytesWritten",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBOutTransferResult.status",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBOutTransferResult.USBOutTransferResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBPermissionResult",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.USBPermissionResult.devices",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.Worker",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.Worker.onerror",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.Worker.onmessage",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.Worker.onmessageerror",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.Worker.postMessage",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.Worker.terminate",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.Worker.Worker",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.abort",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.DONE",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.getAllResponseHeaders",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.getResponseHeader",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.HEADERS_RECEIVED",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.LOADING",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.onreadystatechange",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.open",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.OPENED",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.overrideMimeType",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.readyState",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.response",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.responseText",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.responseType",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.responseURL",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.responseXML",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.send",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.setRequestHeader",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.status",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.statusText",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.timeout",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.UNSENT",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.upload",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.withCredentials",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequest.XMLHttpRequest",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget.onabort",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget.onerror",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget.onload",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget.onloadend",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget.onloadstart",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget.onprogress",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestEventTarget.ontimeout",
+        "result": false
+      },
+      {
+        "info": {
+          "exposure": "SharedWorker"
+        },
+        "message": "No shared worker support",
+        "name": "api.XMLHttpRequestUpload",
+        "result": false
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.0 Safari/532.0"
+}
