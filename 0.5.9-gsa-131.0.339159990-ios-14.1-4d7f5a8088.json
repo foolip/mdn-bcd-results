@@ -1,0 +1,16 @@
+{
+  "__version": "0.5.9",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/api/HTMLInputElement/webkitEntries": [
+      {
+        "info": {
+          "code": "(function () {\n  var instance = document.createElement('input');\n  return 'webkitEntries' in instance;\n})();",
+          "exposure": "Window"
+        },
+        "name": "api.HTMLInputElement.webkitEntries",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/131.0.339159990 Mobile/15E148 Safari/604.1"
+}
