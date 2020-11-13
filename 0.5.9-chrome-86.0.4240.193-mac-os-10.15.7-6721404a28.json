@@ -1,0 +1,72 @@
+{
+  "__version": "0.5.9",
+  "results": {
+    "http://localhost:8080/tests/api/AbortController": [
+      {
+        "info": {
+          "code": "\"AbortController\" in self",
+          "exposure": "Window"
+        },
+        "name": "api.AbortController",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"abort\" in AbortController.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.AbortController.abort",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "bcd.testConstructor(\"AbortController\");",
+          "exposure": "Window"
+        },
+        "name": "api.AbortController.AbortController",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"signal\" in AbortController.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.AbortController.signal",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"AbortController\" in self",
+          "exposure": "Worker"
+        },
+        "name": "api.AbortController",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"abort\" in AbortController.prototype",
+          "exposure": "Worker"
+        },
+        "name": "api.AbortController.abort",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "bcd.testConstructor(\"AbortController\");",
+          "exposure": "Worker"
+        },
+        "name": "api.AbortController.AbortController",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"signal\" in AbortController.prototype",
+          "exposure": "Worker"
+        },
+        "name": "api.AbortController.signal",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+}
