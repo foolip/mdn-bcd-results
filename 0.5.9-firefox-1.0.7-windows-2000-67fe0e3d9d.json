@@ -1,0 +1,8 @@
+{
+  "__version": "0.5.9",
+  "results": {
+    "http://192.168.0.4:8080/tests/": [
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7"
+}
