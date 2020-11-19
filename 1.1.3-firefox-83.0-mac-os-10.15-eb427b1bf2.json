@@ -1,0 +1,205 @@
+{
+  "__version": "1.1.3",
+  "results": {
+    "http://mdn-bcd-collector.appspot.com/tests/api/MediaRecorder": [
+      {
+        "info": {
+          "code": "\"MediaRecorder\" in self",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"audioBitrateMode\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.audioBitrateMode",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "\"audioBitsPerSecond\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.audioBitsPerSecond",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"ignoreMutedMedia\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.ignoreMutedMedia",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "\"isTypeSupported\" in MediaRecorder",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.isTypeSupported",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "bcd.testConstructor(\"MediaRecorder\");",
+          "exposure": "Window"
+        },
+        "message": "threw TypeError: MediaRecorder constructor: 0 is not a valid argument count for any overload.",
+        "name": "api.MediaRecorder.MediaRecorder",
+        "result": null
+      },
+      {
+        "info": {
+          "code": "\"mimeType\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.mimeType",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"ondataavailable\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.ondataavailable",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"onerror\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.onerror",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"onpause\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.onpause",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"onresume\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.onresume",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"onstart\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.onstart",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"onstop\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.onstop",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"onwarning\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.onwarning",
+        "result": false
+      },
+      {
+        "info": {
+          "code": "\"pause\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.pause",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"requestData\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.requestData",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"resume\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.resume",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"start\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.start",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"state\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.state",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"stop\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.stop",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"stream\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.stream",
+        "result": true
+      },
+      {
+        "info": {
+          "code": "\"videoBitsPerSecond\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.videoBitsPerSecond",
+        "result": true
+      }
+    ],
+    "http://mdn-bcd-collector.appspot.com/tests/api/MediaRecorder/ignoreMutedMedia": [
+      {
+        "info": {
+          "code": "\"ignoreMutedMedia\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.ignoreMutedMedia",
+        "result": false
+      }
+    ],
+    "http://mdn-bcd-collector.appspot.com/tests/api/MediaRecorder/onerror": [
+      {
+        "info": {
+          "code": "\"onerror\" in MediaRecorder.prototype",
+          "exposure": "Window"
+        },
+        "name": "api.MediaRecorder.onerror",
+        "result": true
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:83.0) Gecko/20100101 Firefox/83.0"
+}
