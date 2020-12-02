@@ -1,0 +1,1 @@
+{"__version":"1.1.5","results":{"http://mdn-bcd-collector.appspot.com/tests/api/Window/home":[{"info":{"code":"(function () {\n  var instance = window;\n  return 'home' in instance;\n})();","exposure":"Window"},"name":"api.Window.home","result":false}]},"userAgent":"Mozilla/5.0 (Android 9; Mobile; rv:83.0) Gecko/83.0 Firefox/83.0"}
