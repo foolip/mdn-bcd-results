@@ -1,0 +1,1 @@
+{"__version":"2.0.1","results":{"https://mdn-bcd-collector.appspot.com/tests/api/Window/onunhandledrejection":[{"exposure":"Window","name":"api.Window.onunhandledrejection","result":true}]},"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"}
