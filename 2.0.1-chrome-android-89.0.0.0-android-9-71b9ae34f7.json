@@ -1,0 +1,1 @@
+{"__version":"2.0.1","results":{"https://mdn-bcd-collector.appspot.com/tests/api/Response/ok":[{"exposure":"Window","name":"api.Response.ok","result":true},{"exposure":"Worker","name":"api.Response.ok","result":true}]},"userAgent":"Mozilla/5.0 (Linux; Android 9; Unspecified Device) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.0.0 Mobile Safari/537.36"}
