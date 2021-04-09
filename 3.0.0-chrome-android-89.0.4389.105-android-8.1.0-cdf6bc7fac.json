@@ -1,0 +1,1 @@
+{"__version":"3.0.0","results":{"https://mdn-bcd-collector.appspot.com/tests/api/FormData/get":[{"exposure":"Window","name":"api.FormData.get","result":true},{"exposure":"Worker","name":"api.FormData.get","result":true}]},"userAgent":"Mozilla/5.0 (Linux; Android 8.1.0; TLW-100) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36"}
